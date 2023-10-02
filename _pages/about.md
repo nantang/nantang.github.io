@@ -25,19 +25,19 @@ I am directing the <a href=""> Data Intelligence</a> lab, which focuses on findi
 
 <ul>
   <li>
-    <b>Retrieval-based language models using multi-modal data lakes.</b> 
+    <em><strong>Retrieval-based language models using multi-modal data lakes.</strong></em>
     Data lakes have become increasingly popular for many organizations. Given a natural language question, retrieving datasets (e.g., text, tables, graphs) and reasoning with language models are key for business intelligence.
   </li>
   <li>
-    <b>Good data for AI (a.k.a. data-centric AI).</b> 
+    <em><strong>Good data for AI (a.k.a. data-centric AI).</strong></em>
     For most machine learning practitioners, the success of machine learning projects heavily depends on whether we can find good data for model training.
   </li>
   <li>
-    <b>AI for good data.</b> 
+    <em><strong>AI for good data.</strong></em>
     Data scientists spend at least 80% of their time on data preparation. Machine learning models can help address diverse data preparation challenges.
   </li>
   <li>
-    <b>Visualization.</b> 
+    <em><strong>Visualization.</strong></em>
     Data visualization is important to data analytics. I am working on automatic visualization, visualization recommendation, chat-to-story, chat-to-video, and visualization using AR/VR devices.
   </li>
 </ul>
