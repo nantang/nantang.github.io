@@ -8,13 +8,6 @@ category: llmdb
 related_publications: DBLP:journals/corr/abs-2307-02796
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/verifai.jpg" title="Verified Generative AI" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
 Generative AI has made significant strides, yet concerns about the accuracy and reliability of its outputs continue to grow. Such inaccuracies can have serious consequences such as inaccurate decision-making, the spread of false information, privacy violations, legal liabilities, and more. Although efforts to address these
 risks are underway, including explainable AI and responsible AI practices such as transparency, privacy protection, bias mitigation, and social and environmental responsibility, misinformation caused by generative AI will remain a significant challenge. 
 
