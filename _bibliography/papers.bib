@@ -2,7 +2,7 @@
 ---
 
 @article{DBLP:journals/corr/abs-2307-02796,
-  bibtex_show={false},
+  bibtex_show  = {false},
   author       = {Nan Tang and
                   Chenyu Yang and
                   Ju Fan and
@@ -20,11 +20,13 @@
   timestamp    = {Wed, 19 Jul 2023 15:26:21 +0200},
   biburl       = {https://dblp.org/rec/journals/corr/abs-2307-02796.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {arXiv},
-  abstract     = {Generative AI has made significant strides, yet concerns about the accuracy and  reliability of its outputs continue to grow. Such inaccuracies can have serious consequences such as inaccurate decision-making, the spread of false information, privacy violations, legal liabilities, and more. Although efforts to address these risks are underway, including explainable AI and responsible AI practices such as transparency, privacy protection, bias mitigation, and social and environmental responsibility, misinformation caused by generative AI will remain a significant challenge. We propose that verifying the outputs of generative AI from a data management perspective is an emerging issue for generative AI. This involves analyzing the underlying data from multi-modal data lakes, including text files, tables, and knowledge graphs, and assessing its quality and consistency. By doing so, we can establish a stronger foundation for evaluating the outputs of generative AI models. Such an approach can ensure the correctness of generative AI, promote transparency, and enable decision-making with greater confidence. Our vision is to promote the development of verifiable generative AI and contribute to a more trustworthy and responsible use of AI.},  
-  preview      = {verifai.jpg},
+  abbr         = {CIDR},
   arxiv        = {2307.02796},
+  abstract     = {Generative AI has made significant strides, yet concerns about the accuracy and  reliability of its outputs continue to grow. Such inaccuracies can have serious consequences such as inaccurate decision-making, the spread of false information, privacy violations, legal liabilities, and more. Although efforts to address these risks are underway, including explainable AI and responsible AI practices such as transparency, privacy protection, bias mitigation, and social and environmental responsibility, misinformation caused by generative AI will remain a significant challenge. We propose that verifying the outputs of generative AI from a data management perspective is an emerging issue for generative AI. This involves analyzing the underlying data from multi-modal data lakes, including text files, tables, and knowledge graphs, and assessing its quality and consistency. By doing so, we can establish a stronger foundation for evaluating the outputs of generative AI models. Such an approach can ensure the correctness of generative AI, promote transparency, and enable decision-making with greater confidence. Our vision is to promote the development of verifiable generative AI and contribute to a more trustworthy and responsible use of AI.},    
 }
+
+  preview      = {verifai.jpg},
+  
 
 @article{DBLP:journals/pacmmod/TuFTWL0JG23,
   bibtex_show={true},
@@ -49,25 +51,11 @@
   biburl       = {https://dblp.org/rec/journals/pacmmod/TuFTWL0JG23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {SIGMOD},
-  preview      = {unicorn.jpg},  
-  abstract     = {Data matching – which decides whether two data elements (e.g., string, tuple, column, or knowledge graph entity) are the “same” (a.k.a. a match) – is a key concept in data integration, such as entity matching and
-schema matching. The widely used practice is to build task-specific or even dataset-specific solutions, which
-are hard to generalize and disable the opportunities of knowledge sharing that can be learned from different
-datasets and multiple tasks. In this paper, we propose Unicorn, a unified model for generally supporting common data matching tasks.
-Moreover, this unified model can enable knowledge sharing by learning from multiple tasks and multiple
-datasets, and can also support zero-shot prediction for new tasks with zero labeled matching/non-matching
-pairs. However, building such a unified model is challenging due to heterogeneous formats of input data
-elements (e.g., strings, tuples, columns, trees, graphs, and so on) and various matching semantics of multiple
-tasks. To address the challenges, Unicorn employs one generic Encoder that converts any pair of data elements
-(𝑎, 𝑏) into a learned representation, and uses a Matcher, which is a binary classifier, to decide whether 𝑎
-matches 𝑏. To align matching semantics of multiple tasks, Unicorn also adopts a mixture-of-experts model
-that enhances the learned representation into a better representation, which can further boost the performance
-of predictions. We conduct extensive experiments on 20 datasets of seven well-studied data matching tasks,
-including entity matching, entity linking, entity alignment, column type annotation, string matching, schema
-matching, and ontology matching, and find that our unified model can achieve better performance on most
-tasks and on average, compared with the state-of-the-art specific models trained for ad-hoc tasks and datasets
-separately. Moreover, Unicorn can also well serve new matching tasks with zero-shot learning.}
+  abstract     = {Data matching – which decides whether two data elements (e.g., string, tuple, column, or knowledge graph entity) are the “same” (a.k.a. a match) – is a key concept in data integration, such as entity matching and schema matching. The widely used practice is to build task-specific or even dataset-specific solutions, which are hard to generalize and disable the opportunities of knowledge sharing that can be learned from different datasets and multiple tasks. In this paper, we propose Unicorn, a unified model for generally supporting common data matching tasks. Moreover, this unified model can enable knowledge sharing by learning from multiple tasks and multiple datasets, and can also support zero-shot prediction for new tasks with zero labeled matching/non-matching pairs. However, building such a unified model is challenging due to heterogeneous formats of input data elements (e.g., strings, tuples, columns, trees, graphs, and so on) and various matching semantics of multiple tasks. To address the challenges, Unicorn employs one generic Encoder that converts any pair of data elements (𝑎, 𝑏) into a learned representation, and uses a Matcher, which is a binary classifier, to decide whether 𝑎 matches 𝑏. To align matching semantics of multiple tasks, Unicorn also adopts a mixture-of-experts model that enhances the learned representation into a better representation, which can further boost the performance of predictions. We conduct extensive experiments on 20 datasets of seven well-studied data matching tasks, including entity matching, entity linking, entity alignment, column type annotation, string matching, schema matching, and ontology matching, and find that our unified model can achieve better performance on most tasks and on average, compared with the state-of-the-art specific models trained for ad-hoc tasks and datasets separately. Moreover, Unicorn can also well serve new matching tasks with zero-shot learning.}
 }
+
+preview      = {unicorn.jpg},  
+
 
 @article{DBLP:journals/pacmmod/LuoZ00CS23,
   bibtex_show  = {true},
@@ -89,9 +77,9 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   timestamp    = {Thu, 15 Jun 2023 21:57:49 +0200},
   biburl       = {https://dblp.org/rec/journals/pacmmod/LuoZ00CS23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},  
-  preview      = {line.jpg},  
+  abbr         = {SIGMOD},    
 }
+preview      = {line.jpg},  
 
 @article{DBLP:journals/pacmmod/Chen0FYCL023,
   bibtex_show  = {true},
@@ -115,8 +103,8 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   biburl       = {https://dblp.org/rec/journals/pacmmod/Chen0FYCL023.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {SIGMOD},
-  preview      = {haipipe.jpg},    
 }
+  preview      = {haipipe.jpg},    
 
 
 @article{DBLP:journals/pacmmod/GuF00JM023,
@@ -141,8 +129,8 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   biburl       = {https://dblp.org/rec/journals/pacmmod/GuF00JM023.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {SIGMOD},
-  preview      = {fewshot.jpg},      
 }
+ preview      = {fewshot.jpg},      
 
 @article{DBLP:journals/pacmmod/ChaiL0FM0L023,
   bibtex_show  = {true},
@@ -167,8 +155,8 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   biburl       = {https://dblp.org/rec/journals/pacmmod/ChaiL0FM0L023.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {SIGMOD},
-  preview      = {goodcore.jpg},       
 }
+  preview      = {goodcore.jpg},       
 
 @article{DBLP:journals/tkde/WangLLT23,
   bibtex_show  = {true},
@@ -188,8 +176,8 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   biburl       = {https://dblp.org/rec/journals/tkde/WangLLT23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {TKDE},
-  preview      = {road.jpg},        
 }
+preview      = {road.jpg},        
 
 @article{DBLP:journals/tkde/HaoCLTWY23,
   bibtex_show  = {true},
@@ -234,8 +222,8 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   biburl       = {https://dblp.org/rec/conf/cidr/ChenG0FM023.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {CIDR},
-  preview      = {symphony.jpg},       
 }
+preview      = {symphony.jpg},      
 
 
 @inproceedings{DBLP:conf/kdd/Chai000LDW23,
@@ -294,8 +282,8 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   biburl       = {https://dblp.org/rec/conf/sigmod/YangFT0ZF023.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {SIGMOD Demo},
-  preview      = {chart.jpg},  
 }
+preview      = {chart.jpg},  
 
 @article{DBLP:journals/pvldb/ChaiLTLL22,
   bibtex_show  = {true},
@@ -315,8 +303,8 @@ separately. Moreover, Unicorn can also well serve new matching tasks with zero-s
   biburl       = {https://dblp.org/rec/journals/pvldb/ChaiLTLL22.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {VLDB},
-  preview      = {charging.jpg},    
 }
+ preview      = {charging.jpg},    
 
 @article{DBLP:journals/pvldb/TuHFTCLD22,
   bibtex_show  = {true},

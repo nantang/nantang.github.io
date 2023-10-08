@@ -1,8 +1,0 @@
----
-layout: post
-date: 2023-10-01 
-inline: true
-related_posts: false
----
-
-Ph.D. and Research Assistant Positions Available for 2024 Spring/Fall :sparkles: :smile:
