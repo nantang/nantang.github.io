@@ -1,35 +1,6 @@
----
----
 
-@article{DBLP:journals/corr/abs-2307-02796,
-  bibtex_show  = {false},
-  author       = {Nan Tang and
-                  Chenyu Yang and
-                  Ju Fan and
-                  Lei Cao and
-                  Yuyu Luo and
-                  Alon Halevy},
-  title        = {VerifAI: Verified Generative {AI}},
-  journal      = {CIDR},
-  volume       = {abs/2307.02796},
-  year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2307.02796},
-  doi          = {10.48550/arXiv.2307.02796},
-  eprinttype    = {arXiv},
-  eprint       = {2307.02796},
-  timestamp    = {Wed, 19 Jul 2023 15:26:21 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2307-02796.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {CIDR},
-  arxiv        = {2307.02796},
-  abstract     = {Generative AI has made significant strides, yet concerns about the accuracy and  reliability of its outputs continue to grow. Such inaccuracies can have serious consequences such as inaccurate decision-making, the spread of false information, privacy violations, legal liabilities, and more. Although efforts to address these risks are underway, including explainable AI and responsible AI practices such as transparency, privacy protection, bias mitigation, and social and environmental responsibility, misinformation caused by generative AI will remain a significant challenge. We propose that verifying the outputs of generative AI from a data management perspective is an emerging issue for generative AI. This involves analyzing the underlying data from multi-modal data lakes, including text files, tables, and knowledge graphs, and assessing its quality and consistency. By doing so, we can establish a stronger foundation for evaluating the outputs of generative AI models. Such an approach can ensure the correctness of generative AI, promote transparency, and enable decision-making with greater confidence. Our vision is to promote the development of verifiable generative AI and contribute to a more trustworthy and responsible use of AI.},    
-}
-
-  preview      = {verifai.jpg},
-  
 
 @article{DBLP:journals/pacmmod/TuFTWL0JG23,
-  bibtex_show={true},
   author       = {Jianhong Tu and
                   Ju Fan and
                   Nan Tang and
@@ -39,26 +10,20 @@
                   Xiaofeng Jia and
                   Song Gao},
   title        = {Unicorn: {A} Unified Multi-tasking Model for Supporting Matching Tasks
-                  in Data Integration},                
+                  in Data Integration},
   journal      = {Proc. {ACM} Manag. Data},
   volume       = {1},
   number       = {1},
   pages        = {84:1--84:26},
   year         = {2023},
-  html          = {https://doi.org/10.1145/3588938},
+  url          = {https://doi.org/10.1145/3588938},
   doi          = {10.1145/3588938},
-  timestamp    = {Mon, 19 Jun 2023 16:36:09 +0200},
+  timestamp    = {Mon, 19 Jun 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pacmmod/TuFTWL0JG23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},
-  abstract     = {Data matching – which decides whether two data elements (e.g., string, tuple, column, or knowledge graph entity) are the “same” (a.k.a. a match) – is a key concept in data integration, such as entity matching and schema matching. The widely used practice is to build task-specific or even dataset-specific solutions, which are hard to generalize and disable the opportunities of knowledge sharing that can be learned from different datasets and multiple tasks. In this paper, we propose Unicorn, a unified model for generally supporting common data matching tasks. Moreover, this unified model can enable knowledge sharing by learning from multiple tasks and multiple datasets, and can also support zero-shot prediction for new tasks with zero labeled matching/non-matching pairs. However, building such a unified model is challenging due to heterogeneous formats of input data elements (e.g., strings, tuples, columns, trees, graphs, and so on) and various matching semantics of multiple tasks. To address the challenges, Unicorn employs one generic Encoder that converts any pair of data elements (𝑎, 𝑏) into a learned representation, and uses a Matcher, which is a binary classifier, to decide whether 𝑎 matches 𝑏. To align matching semantics of multiple tasks, Unicorn also adopts a mixture-of-experts model that enhances the learned representation into a better representation, which can further boost the performance of predictions. We conduct extensive experiments on 20 datasets of seven well-studied data matching tasks, including entity matching, entity linking, entity alignment, column type annotation, string matching, schema matching, and ontology matching, and find that our unified model can achieve better performance on most tasks and on average, compared with the state-of-the-art specific models trained for ad-hoc tasks and datasets separately. Moreover, Unicorn can also well serve new matching tasks with zero-shot learning.}
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-preview      = {unicorn.jpg},  
-
-
 @article{DBLP:journals/pacmmod/LuoZ00CS23,
-  bibtex_show  = {true},
   author       = {Yuyu Luo and
                   Yihui Zhou and
                   Nan Tang and
@@ -72,17 +37,14 @@ preview      = {unicorn.jpg},
   number       = {1},
   pages        = {88:1--88:29},
   year         = {2023},
-  html          = {https://doi.org/10.1145/3588942},
+  url          = {https://doi.org/10.1145/3588942},
   doi          = {10.1145/3588942},
-  timestamp    = {Thu, 15 Jun 2023 21:57:49 +0200},
+  timestamp    = {Thu, 15 Jun 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pacmmod/LuoZ00CS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},    
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-preview      = {line.jpg},  
 
 @article{DBLP:journals/pacmmod/Chen0FYCL023,
-  bibtex_show  = {true},
   author       = {Sibei Chen and
                   Nan Tang and
                   Ju Fan and
@@ -97,18 +59,14 @@ preview      = {line.jpg},
   number       = {1},
   pages        = {91:1--91:26},
   year         = {2023},
-  html          = {https://doi.org/10.1145/3588945},
+  url          = {https://doi.org/10.1145/3588945},
   doi          = {10.1145/3588945},
-  timestamp    = {Mon, 19 Jun 2023 16:36:09 +0200},
+  timestamp    = {Mon, 19 Jun 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pacmmod/Chen0FYCL023.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-  preview      = {haipipe.jpg},    
-
 
 @article{DBLP:journals/pacmmod/GuF00JM023,
-  bibtex_show  = {true},
   author       = {Zihui Gu and
                   Ju Fan and
                   Nan Tang and
@@ -123,17 +81,14 @@ preview      = {line.jpg},
   number       = {2},
   pages        = {147:1--147:28},
   year         = {2023},
-  html          = {https://doi.org/10.1145/3589292},
+  url          = {https://doi.org/10.1145/3589292},
   doi          = {10.1145/3589292},
-  timestamp    = {Fri, 07 Jul 2023 23:32:33 +0200},
+  timestamp    = {Fri, 07 Jul 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pacmmod/GuF00JM023.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
- preview      = {fewshot.jpg},      
 
 @article{DBLP:journals/pacmmod/ChaiL0FM0L023,
-  bibtex_show  = {true},
   author       = {Chengliang Chai and
                   Jiabin Liu and
                   Nan Tang and
@@ -149,17 +104,14 @@ preview      = {line.jpg},
   number       = {2},
   pages        = {157:1--157:27},
   year         = {2023},
-  html          = {https://doi.org/10.1145/3589302},
+  url          = {https://doi.org/10.1145/3589302},
   doi          = {10.1145/3589302},
-  timestamp    = {Fri, 07 Jul 2023 23:32:32 +0200},
+  timestamp    = {Fri, 07 Jul 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pacmmod/ChaiL0FM0L023.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-  preview      = {goodcore.jpg},       
 
 @article{DBLP:journals/tkde/WangLLT23,
-  bibtex_show  = {true},
   author       = {Yong Wang and
                   Kaiyu Li and
                   Guoliang Li and
@@ -170,17 +122,14 @@ preview      = {line.jpg},
   number       = {8},
   pages        = {8476--8489},
   year         = {2023},
-  html          = {https://doi.org/10.1109/TKDE.2022.3220822},
+  url          = {https://doi.org/10.1109/TKDE.2022.3220822},
   doi          = {10.1109/TKDE.2022.3220822},
-  timestamp    = {Fri, 21 Jul 2023 22:26:16 +0200},
+  timestamp    = {Fri, 21 Jul 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/tkde/WangLLT23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {TKDE},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-preview      = {road.jpg},        
 
 @article{DBLP:journals/tkde/HaoCLTWY23,
-  bibtex_show  = {true},
   author       = {Shuang Hao and
                   Chengliang Chai and
                   Guoliang Li and
@@ -193,18 +142,14 @@ preview      = {road.jpg},
   number       = {10},
   pages        = {10775--10789},
   year         = {2023},
-  html          = {https://doi.org/10.1109/TKDE.2023.3248223},
+  url          = {https://doi.org/10.1109/TKDE.2023.3248223},
   doi          = {10.1109/TKDE.2023.3248223},
-  timestamp    = {Sat, 30 Sep 2023 10:29:08 +0200},
+  timestamp    = {Wed, 25 Oct 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/tkde/HaoCLTWY23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {TKDE},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @inproceedings{DBLP:conf/cidr/ChenG0FM023,
-  bibtex_show  = {true},
   author       = {Zui Chen and
                   Zihui Gu and
                   Lei Cao and
@@ -217,17 +162,13 @@ preview      = {road.jpg},
                   Amsterdam, The Netherlands, January 8-11, 2023},
   publisher    = {www.cidrdb.org},
   year         = {2023},
-  html          = {https://www.cidrdb.org/cidr2023/papers/p51-chen.pdf},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  url          = {https://www.cidrdb.org/cidr2023/papers/p51-chen.pdf},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/cidr/ChenG0FM023.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {CIDR},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-preview      = {symphony.jpg},      
-
 
 @inproceedings{DBLP:conf/kdd/Chai000LDW23,
-  bibtex_show  = {true},
   author       = {Chengliang Chai and
                   Jiayi Wang and
                   Nan Tang and
@@ -249,16 +190,36 @@ preview      = {symphony.jpg},
   pages        = {167--178},
   publisher    = {{ACM}},
   year         = {2023},
-  html          = {https://doi.org/10.1145/3580305.3599326},
+  url          = {https://doi.org/10.1145/3580305.3599326},
   doi          = {10.1145/3580305.3599326},
   timestamp    = {Mon, 25 Sep 2023 08:29:22 +0200},
   biburl       = {https://dblp.org/rec/conf/kdd/Chai000LDW23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {KDD},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/Chai0FL23,
+  author       = {Chengliang Chai and
+                  Nan Tang and
+                  Ju Fan and
+                  Yuyu Luo},
+  editor       = {Sudipto Das and
+                  Ippokratis Pandis and
+                  K. Sel{\c{c}}uk Candan and
+                  Sihem Amer{-}Yahia},
+  title        = {Demystifying Artificial Intelligence for Data Preparation},
+  booktitle    = {Companion of the 2023 International Conference on Management of Data,
+                  {SIGMOD/PODS} 2023, Seattle, WA, USA, June 18-23, 2023},
+  pages        = {13--20},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3555041.3589406},
+  doi          = {10.1145/3555041.3589406},
+  timestamp    = {Thu, 15 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/Chai0FL23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{DBLP:conf/sigmod/YangFT0ZF023,
-  bibtex_show  = {true},
   author       = {Chenyu Yang and
                   Ruixue Fan and
                   Nan Tang and
@@ -276,17 +237,162 @@ preview      = {symphony.jpg},
   pages        = {111--114},
   publisher    = {{ACM}},
   year         = {2023},
-  html          = {https://doi.org/10.1145/3555041.3589714},
+  url          = {https://doi.org/10.1145/3555041.3589714},
   doi          = {10.1145/3555041.3589714},
-  timestamp    = {Mon, 19 Jun 2023 13:51:54 +0200},
+  timestamp    = {Mon, 19 Jun 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/sigmod/YangFT0ZF023.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD Demo},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-preview      = {chart.jpg},  
+
+@article{DBLP:journals/corr/abs-2303-16909,
+  author       = {Mohammad Shahmeer Ahmad and
+                  Zan Ahmad Naeem and
+                  Mohamed Y. Eltabakh and
+                  Mourad Ouzzani and
+                  Nan Tang},
+  title        = {RetClean: Retrieval-Based Data Cleaning Using Foundation Models and
+                  Data Lakes},
+  journal      = {CoRR},
+  volume       = {abs/2303.16909},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2303.16909},
+  doi          = {10.48550/ARXIV.2303.16909},
+  eprinttype    = {arXiv},
+  eprint       = {2303.16909},
+  timestamp    = {Fri, 14 Apr 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2303-16909.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-2304-03540,
+  author       = {Sibei Chen and
+                  Hanbing Liu and
+                  Weiting Jin and
+                  Xiangyu Sun and
+                  Xiaoyao Feng and
+                  Ju Fan and
+                  Xiaoyong Du and
+                  Nan Tang},
+  title        = {ChatPipe: Orchestrating Data Preparation Program by Optimizing Human-ChatGPT
+                  Interactions},
+  journal      = {CoRR},
+  volume       = {abs/2304.03540},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2304.03540},
+  doi          = {10.48550/ARXIV.2304.03540},
+  eprinttype    = {arXiv},
+  eprint       = {2304.03540},
+  timestamp    = {Tue, 18 Apr 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2304-03540.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-2306-08891,
+  author       = {Zihui Gu and
+                  Ju Fan and
+                  Nan Tang and
+                  Songyue Zhang and
+                  Yuxin Zhang and
+                  Zui Chen and
+                  Lei Cao and
+                  Guoliang Li and
+                  Sam Madden and
+                  Xiaoyong Du},
+  title        = {Interleaving Pre-Trained Language Models and Large Language Models
+                  for Zero-Shot {NL2SQL} Generation},
+  journal      = {CoRR},
+  volume       = {abs/2306.08891},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2306.08891},
+  doi          = {10.48550/ARXIV.2306.08891},
+  eprinttype    = {arXiv},
+  eprint       = {2306.08891},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2306-08891.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-2307-02796,
+  author       = {Nan Tang and
+                  Chenyu Yang and
+                  Ju Fan and
+                  Lei Cao},
+  title        = {VerifAI: Verified Generative {AI}},
+  journal      = {CoRR},
+  volume       = {abs/2307.02796},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2307.02796},
+  doi          = {10.48550/ARXIV.2307.02796},
+  eprinttype    = {arXiv},
+  eprint       = {2307.02796},
+  timestamp    = {Wed, 19 Jul 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2307-02796.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-2310-00749,
+  author       = {Zui Chen and
+                  Lei Cao and
+                  Sam Madden and
+                  Ju Fan and
+                  Nan Tang and
+                  Zihui Gu and
+                  Zeyuan Shang and
+                  Chunwei Liu and
+                  Michael J. Cafarella and
+                  Tim Kraska},
+  title        = {{SEED:} Simple, Efficient, and Effective Data Management via Large
+                  Language Models},
+  journal      = {CoRR},
+  volume       = {abs/2310.00749},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2310.00749},
+  doi          = {10.48550/ARXIV.2310.00749},
+  eprinttype    = {arXiv},
+  eprint       = {2310.00749},
+  timestamp    = {Wed, 18 Oct 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2310-00749.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/ijsi/YuCZTSL22,
+  author       = {Xiang Yu and
+                  Chengliang Chai and
+                  Xinning Zhang and
+                  Nan Tang and
+                  Ji Sun and
+                  Guoliang Li},
+  title        = {AlphaQO: Robust Learned Query Optimizer},
+  journal      = {Int. J. Softw. Informatics},
+  volume       = {12},
+  number       = {1},
+  pages        = {7--29},
+  year         = {2022},
+  url          = {https://doi.org/10.21655/ijsi.1673-7288.00275},
+  doi          = {10.21655/IJSI.1673-7288.00275},
+  timestamp    = {Sat, 14 Jan 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/ijsi/YuCZTSL22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/jcst/LiTC22,
+  author       = {Guoliang Li and
+                  Nan Tang and
+                  Chengliang Chai},
+  title        = {Preface},
+  journal      = {J. Comput. Sci. Technol.},
+  volume       = {37},
+  number       = {5},
+  pages        = {1003--1004},
+  year         = {2022},
+  url          = {https://doi.org/10.1007/s11390-022-0005-8},
+  doi          = {10.1007/S11390-022-0005-8},
+  timestamp    = {Tue, 08 Nov 2022 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/jcst/LiTC22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @article{DBLP:journals/pvldb/ChaiLTLL22,
-  bibtex_show  = {true},
   author       = {Chengliang Chai and
                   Jiabin Liu and
                   Nan Tang and
@@ -298,16 +404,14 @@ preview      = {chart.jpg},
   number       = {7},
   pages        = {1466--1478},
   year         = {2022},
-  html          = {https://www.vldb.org/pvldb/vol15/p1466-li.pdf},
-  timestamp    = {Wed, 29 Jun 2022 11:10:54 +0200},
+  url          = {https://www.vldb.org/pvldb/vol15/p1466-li.pdf},
+  doi          = {10.14778/3523210.3523223},
+  timestamp    = {Mon, 23 Oct 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/ChaiLTLL22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
- preview      = {charging.jpg},    
 
 @article{DBLP:journals/pvldb/TuHFTCLD22,
-  bibtex_show  = {true},
   author       = {Jianhong Tu and
                   Xiaoyue Han and
                   Ju Fan and
@@ -321,15 +425,14 @@ preview      = {chart.jpg},
   number       = {12},
   pages        = {3666--3669},
   year         = {2022},
-  html          = {https://www.vldb.org/pvldb/vol15/p3666-fan.pdf},
-  timestamp    = {Mon, 26 Sep 2022 17:09:16 +0200},
+  url          = {https://www.vldb.org/pvldb/vol15/p3666-fan.pdf},
+  doi          = {10.14778/3554821.3554870},
+  timestamp    = {Mon, 23 Oct 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/TuHFTCLD22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB Demo},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{DBLP:journals/pvldb/WangC0L022,
-  bibtex_show  = {true},
   author       = {Jiayi Wang and
                   Chengliang Chai and
                   Nan Tang and
@@ -342,16 +445,14 @@ preview      = {chart.jpg},
   number       = {1},
   pages        = {64--76},
   year         = {2022},
-  html          = {https://www.vldb.org/pvldb/vol16/p64-wang.pdf},
-  timestamp    = {Sat, 15 Apr 2023 17:50:14 +0200},
+  url          = {https://www.vldb.org/pvldb/vol16/p64-wang.pdf},
+  doi          = {10.14778/3561261.3561267},
+  timestamp    = {Mon, 23 Oct 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/WangC0L022.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
 @article{DBLP:journals/pvldb/PengS0LKNC022,
-  bibtex_show  = {true},
   author       = {Jinfeng Peng and
                   Derong Shen and
                   Nan Tang and
@@ -367,15 +468,14 @@ preview      = {chart.jpg},
   number       = {3},
   pages        = {433--446},
   year         = {2022},
-  html          = {https://www.vldb.org/pvldb/vol16/p433-peng.pdf},
-  timestamp    = {Wed, 11 Jan 2023 17:06:38 +0100},
+  url          = {https://www.vldb.org/pvldb/vol16/p433-peng.pdf},
+  doi          = {10.14778/3570690.3570694},
+  timestamp    = {Mon, 23 Oct 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/PengS0LKNC022.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{DBLP:journals/tkde/LuoQCTLL22,
-  bibtex_show  = {true},
   author       = {Yuyu Luo and
                   Xuedi Qin and
                   Chengliang Chai and
@@ -388,16 +488,14 @@ preview      = {chart.jpg},
   number       = {1},
   pages        = {475--490},
   year         = {2022},
-  html          = {https://doi.org/10.1109/TKDE.2020.2981464},
+  url          = {https://doi.org/10.1109/TKDE.2020.2981464},
   doi          = {10.1109/TKDE.2020.2981464},
-  timestamp    = {Mon, 27 Dec 2021 17:52:20 +0100},
+  timestamp    = {Mon, 27 Dec 2021 00:00:00 +0100},
   biburl       = {https://dblp.org/rec/journals/tkde/LuoQCTLL22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {TKDE},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{DBLP:journals/tvcg/LuoTLTCQ22,
-  bibtex_show  = {true},
   author       = {Yuyu Luo and
                   Nan Tang and
                   Guoliang Li and
@@ -410,16 +508,14 @@ preview      = {chart.jpg},
   number       = {1},
   pages        = {217--226},
   year         = {2022},
-  html          = {https://doi.org/10.1109/TVCG.2021.3114848},
+  url          = {https://doi.org/10.1109/TVCG.2021.3114848},
   doi          = {10.1109/TVCG.2021.3114848},
-  timestamp    = {Wed, 05 Jan 2022 16:46:20 +0100},
+  timestamp    = {Wed, 05 Jan 2022 00:00:00 +0100},
   biburl       = {https://dblp.org/rec/journals/tvcg/LuoTLTCQ22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VIS},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{DBLP:journals/vldb/QinCLZTLFYO22,
-  bibtex_show  = {true},
   author       = {Xuedi Qin and
                   Chengliang Chai and
                   Yuyu Luo and
@@ -435,16 +531,14 @@ preview      = {chart.jpg},
   number       = {4},
   pages        = {753--777},
   year         = {2022},
-  html          = {https://doi.org/10.1007/s00778-021-00714-0},
-  doi          = {10.1007/s00778-021-00714-0},
-  timestamp    = {Mon, 25 Jul 2022 08:40:22 +0200},
+  url          = {https://doi.org/10.1007/s00778-021-00714-0},
+  doi          = {10.1007/S00778-021-00714-0},
+  timestamp    = {Mon, 25 Jul 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/vldb/QinCLZTLFYO22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDBJ},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{DBLP:conf/emnlp/GuF0NZ022,
-  bibtex_show  = {true},
   author       = {Zihui Gu and
                   Ju Fan and
                   Nan Tang and
@@ -462,16 +556,14 @@ preview      = {chart.jpg},
   pages        = {4971--4983},
   publisher    = {Association for Computational Linguistics},
   year         = {2022},
-  html          = {https://doi.org/10.18653/v1/2022.emnlp-main.331},
-  doi          = {10.18653/v1/2022.emnlp-main.331},
-  timestamp    = {Thu, 10 Aug 2023 12:35:28 +0200},
+  url          = {https://doi.org/10.18653/v1/2022.emnlp-main.331},
+  doi          = {10.18653/V1/2022.EMNLP-MAIN.331},
+  timestamp    = {Thu, 10 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/emnlp/GuF0NZ022.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {EMNLP},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{DBLP:conf/icde/QinCTLLLZ22,
-  bibtex_show  = {true},
   author       = {Xuedi Qin and
                   Chengliang Chai and
                   Nan Tang and
@@ -485,16 +577,14 @@ preview      = {chart.jpg},
   pages        = {2359--2371},
   publisher    = {{IEEE}},
   year         = {2022},
-  html          = {https://doi.org/10.1109/ICDE53745.2022.00222},
+  url          = {https://doi.org/10.1109/ICDE53745.2022.00222},
   doi          = {10.1109/ICDE53745.2022.00222},
-  timestamp    = {Fri, 05 Aug 2022 16:24:02 +0200},
+  timestamp    = {Fri, 05 Aug 2022 16:24:00 +0200},
   biburl       = {https://dblp.org/rec/conf/icde/QinCTLLLZ22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {ICDE},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{DBLP:conf/icde/LiuCLLFT22,
-  bibtex_show  = {true},
   author       = {Jiabin Liu and
                   Chengliang Chai and
                   Yuyu Luo and
@@ -507,16 +597,14 @@ preview      = {chart.jpg},
   pages        = {3360--3372},
   publisher    = {{IEEE}},
   year         = {2022},
-  html          = {https://doi.org/10.1109/ICDE53745.2022.00317},
+  url          = {https://doi.org/10.1109/ICDE53745.2022.00317},
   doi          = {10.1109/ICDE53745.2022.00317},
-  timestamp    = {Fri, 05 Aug 2022 16:24:02 +0200},
+  timestamp    = {Fri, 05 Aug 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/icde/LiuCLLFT22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {ICDE},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{DBLP:conf/sigmod/TuF0WC0F022,
-  bibtex_show  = {true},
   author       = {Jianhong Tu and
                   Ju Fan and
                   Nan Tang and
@@ -534,17 +622,35 @@ preview      = {chart.jpg},
   pages        = {443--457},
   publisher    = {{ACM}},
   year         = {2022},
-  html          = {https://doi.org/10.1145/3514221.3517870},
+  url          = {https://doi.org/10.1145/3514221.3517870},
   doi          = {10.1145/3514221.3517870},
-  timestamp    = {Mon, 26 Jun 2023 20:43:17 +0200},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/sigmod/TuF0WC0F022.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{DBLP:journals/corr/abs-2211-02816,
+  author       = {Zihui Gu and
+                  Ju Fan and
+                  Nan Tang and
+                  Preslav Nakov and
+                  Xiaoman Zhao and
+                  Xiaoyong Du},
+  title        = {{PASTA:} Table-Operations Aware Fact Verification via Sentence-Table
+                  Cloze Pre-training},
+  journal      = {CoRR},
+  volume       = {abs/2211.02816},
+  year         = {2022},
+  url          = {https://doi.org/10.48550/arXiv.2211.02816},
+  doi          = {10.48550/ARXIV.2211.02816},
+  eprinttype    = {arXiv},
+  eprint       = {2211.02816},
+  timestamp    = {Wed, 09 Nov 2022 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2211-02816.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @article{DBLP:journals/pvldb/LiuLF00021,
-  bibtex_show  = {true},
   author       = {Tongyu Liu and
                   Ju Fan and
                   Yinqing Luo and
@@ -557,18 +663,14 @@ preview      = {chart.jpg},
   number       = {7},
   pages        = {1202--1214},
   year         = {2021},
-  html          = {http://www.vldb.org/pvldb/vol14/p1202-fan.pdf},
+  url          = {http://www.vldb.org/pvldb/vol14/p1202-fan.pdf},
   doi          = {10.14778/3450980.3450989},
-  timestamp    = {Thu, 21 Apr 2022 17:09:21 +0200},
+  timestamp    = {Thu, 21 Apr 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/LiuLF00021.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @article{DBLP:journals/pvldb/TangFLTDLMO21,
-  bibtex_show  = {true},
   author       = {Nan Tang and
                   Ju Fan and
                   Fangyi Li and
@@ -584,18 +686,14 @@ preview      = {chart.jpg},
   number       = {8},
   pages        = {1254--1261},
   year         = {2021},
-  html          = {http://www.vldb.org/pvldb/vol14/p1254-tang.pdf},
+  url          = {http://www.vldb.org/pvldb/vol14/p1254-tang.pdf},
   doi          = {10.14778/3457390.3457391},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/TangFLTDLMO21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @article{DBLP:journals/pvldb/Thirumuruganathan21,
-  bibtex_show  = {true},
   author       = {Saravanan Thirumuruganathan and
                   Han Li and
                   Nan Tang and
@@ -610,18 +708,14 @@ preview      = {chart.jpg},
   number       = {11},
   pages        = {2459--2472},
   year         = {2021},
-  html          = {http://www.vldb.org/pvldb/vol14/p2459-thirumuruganathan.pdf},
+  url          = {http://www.vldb.org/pvldb/vol14/p2459-thirumuruganathan.pdf},
   doi          = {10.14778/3476249.3476294},
-  timestamp    = {Thu, 21 Apr 2022 17:09:21 +0200},
+  timestamp    = {Thu, 21 Apr 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/Thirumuruganathan21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @article{DBLP:journals/pvldb/LiuZCL021,
-  bibtex_show  = {true},
   author       = {Jiabin Liu and
                   Fu Zhu and
                   Chengliang Chai and
@@ -633,18 +727,14 @@ preview      = {chart.jpg},
   number       = {12},
   pages        = {2739--2742},
   year         = {2021},
-  html          = {http://www.vldb.org/pvldb/vol14/p2739-chai.pdf},
+  url          = {http://www.vldb.org/pvldb/vol14/p2739-chai.pdf},
   doi          = {10.14778/3476311.3476333},
-  timestamp    = {Thu, 21 Apr 2022 17:09:21 +0200},
+  timestamp    = {Thu, 21 Apr 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/LiuZCL021.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB Demo},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @article{DBLP:journals/pvldb/SunZSLT21,
-  bibtex_show  = {true},
   author       = {Ji Sun and
                   Jintao Zhang and
                   Zhaoyan Sun and
@@ -657,18 +747,14 @@ preview      = {chart.jpg},
   number       = {1},
   pages        = {85--97},
   year         = {2021},
-  html          = {http://www.vldb.org/pvldb/vol15/p85-li.pdf},
+  url          = {http://www.vldb.org/pvldb/vol15/p85-li.pdf},
   doi          = {10.14778/3485450.3485459},
-  timestamp    = {Thu, 21 Apr 2022 17:09:21 +0200},
+  timestamp    = {Thu, 21 Apr 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/SunZSLT21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @article{DBLP:journals/vldb/HaoTLFW21,
-  bibtex_show  = {true},
   author       = {Shuang Hao and
                   Nan Tang and
                   Guoliang Li and
@@ -680,18 +766,14 @@ preview      = {chart.jpg},
   number       = {4},
   pages        = {515--536},
   year         = {2021},
-  html          = {https://doi.org/10.1007/s00778-021-00653-w},
-  doi          = {10.1007/s00778-021-00653-w},
-  timestamp    = {Sat, 30 Sep 2023 10:30:08 +0200},
+  url          = {https://doi.org/10.1007/s00778-021-00653-w},
+  doi          = {10.1007/S00778-021-00653-W},
+  timestamp    = {Wed, 25 Oct 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/vldb/HaoTLFW21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDBJ},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @inproceedings{DBLP:conf/icde/QinCLZ00FYO21,
-  bibtex_show  = {true},
   author       = {Xuedi Qin and
                   Chengliang Chai and
                   Yuyu Luo and
@@ -707,18 +789,14 @@ preview      = {chart.jpg},
   pages        = {1973--1978},
   publisher    = {{IEEE}},
   year         = {2021},
-  html          = {https://doi.org/10.1109/ICDE51399.2021.00186},
+  url          = {https://doi.org/10.1109/ICDE51399.2021.00186},
   doi          = {10.1109/ICDE51399.2021.00186},
-  timestamp    = {Fri, 25 Jun 2021 11:31:22 +0200},
+  timestamp    = {Fri, 25 Jun 2021 11:30:58 +0200},
   biburl       = {https://dblp.org/rec/conf/icde/QinCLZ00FYO21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {ICDE},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @inproceedings{DBLP:conf/sigmod/Luo00CLQ21,
-  bibtex_show  = {true},
   author       = {Yuyu Luo and
                   Nan Tang and
                   Guoliang Li and
@@ -736,18 +814,14 @@ preview      = {chart.jpg},
   pages        = {1235--1247},
   publisher    = {{ACM}},
   year         = {2021},
-  html          = {https://doi.org/10.1145/3448016.3457261},
+  url          = {https://doi.org/10.1145/3448016.3457261},
   doi          = {10.1145/3448016.3457261},
-  timestamp    = {Mon, 21 Jun 2021 11:48:44 +0200},
+  timestamp    = {Mon, 21 Jun 2021 11:48:16 +0200},
   biburl       = {https://dblp.org/rec/conf/sigmod/Luo00CLQ21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @inproceedings{DBLP:conf/sigmod/Sun0021,
-  bibtex_show  = {true},
   author       = {Ji Sun and
                   Guoliang Li and
                   Nan Tang},
@@ -761,70 +835,52 @@ preview      = {chart.jpg},
   pages        = {1745--1757},
   publisher    = {{ACM}},
   year         = {2021},
-  html          = {https://doi.org/10.1145/3448016.3452790},
+  url          = {https://doi.org/10.1145/3448016.3452790},
   doi          = {10.1145/3448016.3452790},
-  timestamp    = {Mon, 21 Jun 2021 11:48:44 +0200},
+  timestamp    = {Mon, 21 Jun 2021 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/sigmod/Sun0021.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
-@article{DBLP:journals/pvldb/EbraheemTJOT18,
-  bibtex_show  = {true},
-  author       = {Muhammad Ebraheem and
-                  Saravanan Thirumuruganathan and
-                  Shafiq R. Joty and
-                  Mourad Ouzzani and
-                  Nan Tang},
-  title        = {Distributed Representations of Tuples for Entity Resolution},
-  journal      = {Proc. {VLDB} Endow.},
-  volume       = {11},
-  number       = {11},
-  pages        = {1454--1467},
-  year         = {2018},
-  html          = {http://www.vldb.org/pvldb/vol11/p1454-ebraheem.pdf},
-  doi          = {10.14778/3236187.3236198},
-  timestamp    = {Sat, 25 Apr 2020 13:58:45 +0200},
-  biburl       = {https://dblp.org/rec/journals/pvldb/EbraheemTJOT18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+@article{DBLP:journals/debu/Luo00LZY20,
+  author       = {Yuyu Luo and
+                  Nan Tang and
+                  Guoliang Li and
+                  Wenbo Li and
+                  Tianyu Zhao and
+                  Xiang Yu},
+  title        = {DeepEye: {A} Data Science System for Monitoring and Exploring {COVID-19}
+                  Data},
+  journal      = {{IEEE} Data Eng. Bull.},
+  volume       = {43},
+  number       = {2},
+  pages        = {121--132},
+  year         = {2020},
+  url          = {http://sites.computer.org/debull/A20june/p121.pdf},
+  timestamp    = {Tue, 21 Jul 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/debu/Luo00LZY20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{DBLP:conf/sigmod/0002MEMPQS017,
-  bibtex_show  = {true},
-  author       = {Rohit Singh and
-                  Venkata Vamsikrishna Meduri and
-                  Ahmed K. Elmagarmid and
-                  Samuel Madden and
-                  Paolo Papotti and
-                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
-                  Armando Solar{-}Lezama and
-                  Nan Tang},
-  editor       = {Semih Salihoglu and
-                  Wenchao Zhou and
-                  Rada Chirkova and
-                  Jun Yang and
-                  Dan Suciu},
-  title        = {Generating Concise Entity Matching Rules},
-  booktitle    = {Proceedings of the 2017 {ACM} International Conference on Management
-                  of Data, {SIGMOD} Conference 2017, Chicago, IL, USA, May 14-19, 2017},
-  pages        = {1635--1638},
-  publisher    = {{ACM}},
-  year         = {2017},
-  html          = {https://doi.org/10.1145/3035918.3058739},
-  doi          = {10.1145/3035918.3058739},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
-  biburl       = {https://dblp.org/rec/conf/sigmod/0002MEMPQS017.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD Demo},
+@article{DBLP:journals/pacmpl/FeserM0S20,
+  author       = {John K. Feser and
+                  Sam Madden and
+                  Nan Tang and
+                  Armando Solar{-}Lezama},
+  title        = {Deductive optimization of relational data storage},
+  journal      = {Proc. {ACM} Program. Lang.},
+  volume       = {4},
+  number       = {{OOPSLA}},
+  pages        = {170:1--170:30},
+  year         = {2020},
+  url          = {https://doi.org/10.1145/3428238},
+  doi          = {10.1145/3428238},
+  timestamp    = {Sat, 09 Apr 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pacmpl/FeserM0S20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-
-
 
 @article{DBLP:journals/pvldb/QahtanTOCS20,
-  bibtex_show  = {true},
   author       = {Abdulhakim Ali Qahtan and
                   Nan Tang and
                   Mourad Ouzzani and
@@ -836,18 +892,115 @@ preview      = {chart.jpg},
   number       = {5},
   pages        = {684--697},
   year         = {2020},
-  html          = {http://www.vldb.org/pvldb/vol13/p684-qahtan.pdf},
+  url          = {http://www.vldb.org/pvldb/vol13/p684-qahtan.pdf},
   doi          = {10.14778/3377369.3377377},
-  timestamp    = {Sat, 30 Sep 2023 10:24:10 +0200},
+  timestamp    = {Sat, 30 Sep 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/QahtanTOCS20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{DBLP:journals/pvldb/LuoCQ0020,
+  author       = {Yuyu Luo and
+                  Chengliang Chai and
+                  Xuedi Qin and
+                  Nan Tang and
+                  Guoliang Li},
+  title        = {VisClean: Interactive Cleaning for Progressive Visualization},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {13},
+  number       = {12},
+  pages        = {2821--2824},
+  year         = {2020},
+  url          = {http://www.vldb.org/pvldb/vol13/p2821-luo.pdf},
+  doi          = {10.14778/3415478.3415484},
+  timestamp    = {Tue, 23 Mar 2021 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/pvldb/LuoCQ0020.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
+@article{DBLP:journals/pvldb/LuoLZYZ0020,
+  author       = {Yuyu Luo and
+                  Wenbo Li and
+                  Tianyu Zhao and
+                  Xiang Yu and
+                  Lixi Zhang and
+                  Guoliang Li and
+                  Nan Tang},
+  title        = {DeepTrack: Monitoring and Exploring Spatio-Temporal Data - {A} Case
+                  of Tracking {COVID-19} -},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {13},
+  number       = {12},
+  pages        = {2841--2844},
+  year         = {2020},
+  url          = {http://www.vldb.org/pvldb/vol13/p2841-luo.pdf},
+  doi          = {10.14778/3415478.3415489},
+  timestamp    = {Tue, 23 Mar 2021 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/pvldb/LuoLZYZ0020.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/RezigBTO0MMS20,
+  author       = {El Kindi Rezig and
+                  Ashrita Brahmaroutu and
+                  Nesime Tatbul and
+                  Mourad Ouzzani and
+                  Nan Tang and
+                  Timothy G. Mattson and
+                  Samuel Madden and
+                  Michael Stonebraker},
+  title        = {Debugging Large-Scale Data Science Pipelines using Dagger},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {13},
+  number       = {12},
+  pages        = {2993--2996},
+  year         = {2020},
+  url          = {http://www.vldb.org/pvldb/vol13/p2993-rezig.pdf},
+  doi          = {10.14778/3415478.3415527},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/RezigBTO0MMS20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/vldb/QinLTL20,
+  author       = {Xuedi Qin and
+                  Yuyu Luo and
+                  Nan Tang and
+                  Guoliang Li},
+  title        = {Making data visualization more efficient and effective: a survey},
+  journal      = {{VLDB} J.},
+  volume       = {29},
+  number       = {1},
+  pages        = {93--117},
+  year         = {2020},
+  url          = {https://doi.org/10.1007/s00778-019-00588-3},
+  doi          = {10.1007/S00778-019-00588-3},
+  timestamp    = {Thu, 06 Feb 2020 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/vldb/QinLTL20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/cidr/RezigCSSMTOS20,
+  author       = {El Kindi Rezig and
+                  Lei Cao and
+                  Giovanni Simonini and
+                  Maxime Schoemans and
+                  Samuel Madden and
+                  Nan Tang and
+                  Mourad Ouzzani and
+                  Michael Stonebraker},
+  title        = {Dagger: {A} Data (not code) Debugger},
+  booktitle    = {10th Conference on Innovative Data Systems Research, {CIDR} 2020,
+                  Amsterdam, The Netherlands, January 12-15, 2020, Online Proceedings},
+  publisher    = {www.cidrdb.org},
+  year         = {2020},
+  url          = {http://cidrdb.org/cidr2020/papers/p35-rezig-cidr20.pdf},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/cidr/RezigCSSMTOS20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @inproceedings{DBLP:conf/edbt/Thirumuruganathan20,
-  bibtex_show  = {true},
   author       = {Saravanan Thirumuruganathan and
                   Nan Tang and
                   Mourad Ouzzani and
@@ -867,18 +1020,99 @@ preview      = {chart.jpg},
   pages        = {277--286},
   publisher    = {OpenProceedings.org},
   year         = {2020},
-  html          = {https://doi.org/10.5441/002/edbt.2020.25},
-  doi          = {10.5441/002/edbt.2020.25},
+  url          = {https://doi.org/10.5441/002/edbt.2020.25},
+  doi          = {10.5441/002/EDBT.2020.25},
   timestamp    = {Wed, 15 Feb 2023 22:11:05 +0100},
   biburl       = {https://dblp.org/rec/conf/edbt/Thirumuruganathan20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {EDBT},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@inproceedings{DBLP:conf/icde/LuoCQ0020,
+  author       = {Yuyu Luo and
+                  Chengliang Chai and
+                  Xuedi Qin and
+                  Nan Tang and
+                  Guoliang Li},
+  title        = {Interactive Cleaning for Progressive Visualization through Composite
+                  Questions},
+  booktitle    = {36th {IEEE} International Conference on Data Engineering, {ICDE} 2020,
+                  Dallas, TX, USA, April 20-24, 2020},
+  pages        = {733--744},
+  publisher    = {{IEEE}},
+  year         = {2020},
+  url          = {https://doi.org/10.1109/ICDE48307.2020.00069},
+  doi          = {10.1109/ICDE48307.2020.00069},
+  timestamp    = {Fri, 05 Jun 2020 17:54:38 +0200},
+  biburl       = {https://dblp.org/rec/conf/icde/LuoCQ0020.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
+@inproceedings{DBLP:conf/icde/Yu0C020,
+  author       = {Xiang Yu and
+                  Guoliang Li and
+                  Chengliang Chai and
+                  Nan Tang},
+  title        = {Reinforcement Learning with Tree-LSTM for Join Order Selection},
+  booktitle    = {36th {IEEE} International Conference on Data Engineering, {ICDE} 2020,
+                  Dallas, TX, USA, April 20-24, 2020},
+  pages        = {1297--1308},
+  publisher    = {{IEEE}},
+  year         = {2020},
+  url          = {https://doi.org/10.1109/ICDE48307.2020.00116},
+  doi          = {10.1109/ICDE48307.2020.00116},
+  timestamp    = {Fri, 05 Jun 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/icde/Yu0C020.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/HaoC00WY20,
+  author       = {Shuang Hao and
+                  Chengliang Chai and
+                  Guoliang Li and
+                  Nan Tang and
+                  Ning Wang and
+                  Xiang Yu},
+  title        = {Outdated Fact Detection in Knowledge Bases},
+  booktitle    = {36th {IEEE} International Conference on Data Engineering, {ICDE} 2020,
+                  Dallas, TX, USA, April 20-24, 2020},
+  pages        = {1890--1893},
+  publisher    = {{IEEE}},
+  year         = {2020},
+  url          = {https://doi.org/10.1109/ICDE48307.2020.00196},
+  doi          = {10.1109/ICDE48307.2020.00196},
+  timestamp    = {Wed, 25 Oct 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/icde/HaoC00WY20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/QinCL0020,
+  author       = {Xuedi Qin and
+                  Chengliang Chai and
+                  Yuyu Luo and
+                  Nan Tang and
+                  Guoliang Li},
+  editor       = {David Maier and
+                  Rachel Pottinger and
+                  AnHai Doan and
+                  Wang{-}Chiew Tan and
+                  Abdussalam Alawini and
+                  Hung Q. Ngo},
+  title        = {Interactively Discovering and Ranking Desired Tuples without Writing
+                  {SQL} Queries},
+  booktitle    = {Proceedings of the 2020 International Conference on Management of
+                  Data, {SIGMOD} Conference 2020, online conference [Portland, OR, USA],
+                  June 14-19, 2020},
+  pages        = {2745--2748},
+  publisher    = {{ACM}},
+  year         = {2020},
+  url          = {https://doi.org/10.1145/3318464.3384695},
+  doi          = {10.1145/3318464.3384695},
+  timestamp    = {Wed, 04 May 2022 13:02:28 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/QinCL0020.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @inproceedings{DBLP:conf/sigmod/MuslehO0D20,
-  bibtex_show  = {true},
   author       = {Mashaal Musleh and
                   Mourad Ouzzani and
                   Nan Tang and
@@ -896,43 +1130,53 @@ preview      = {chart.jpg},
   pages        = {2757--2760},
   publisher    = {{ACM}},
   year         = {2020},
-  html          = {https://doi.org/10.1145/3318464.3384698},
+  url          = {https://doi.org/10.1145/3318464.3384698},
   doi          = {10.1145/3318464.3384698},
-  timestamp    = {Mon, 26 Jun 2023 20:43:17 +0200},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/sigmod/MuslehO0D20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {SIGMOD demo},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
-
-@inproceedings{DBLP:conf/cidr/RezigCSSMTOS20,
-  bibtex_show  = {true},
-  author       = {El Kindi Rezig and
-                  Lei Cao and
-                  Giovanni Simonini and
-                  Maxime Schoemans and
-                  Samuel Madden and
-                  Nan Tang and
-                  Mourad Ouzzani and
-                  Michael Stonebraker},
-  title        = {Dagger: {A} Data (not code) Debugger},
-  booktitle    = {10th Conference on Innovative Data Systems Research, {CIDR} 2020,
-                  Amsterdam, The Netherlands, January 12-15, 2020, Online Proceedings},
-  publisher    = {www.cidrdb.org},
+@article{DBLP:journals/corr/abs-2012-02469,
+  author       = {Nan Tang and
+                  Ju Fan and
+                  Fangyi Li and
+                  Jianhong Tu and
+                  Xiaoyong Du and
+                  Guoliang Li and
+                  Sam Madden and
+                  Mourad Ouzzani},
+  title        = {Relational Pretrained Transformers towards Democratizing Data Preparation
+                  [Vision]},
+  journal      = {CoRR},
+  volume       = {abs/2012.02469},
   year         = {2020},
-  html          = {http://cidrdb.org/cidr2020/papers/p35-rezig-cidr20.pdf},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
-  biburl       = {https://dblp.org/rec/conf/cidr/RezigCSSMTOS20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {CIDR},  
+  url          = {https://arxiv.org/abs/2012.02469},
+  eprinttype    = {arXiv},
+  eprint       = {2012.02469},
+  timestamp    = {Wed, 09 Dec 2020 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2012-02469.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
+@article{DBLP:journals/pvldb/WangLT19,
+  author       = {Yong Wang and
+                  Guoliang Li and
+                  Nan Tang},
+  title        = {Querying Shortest Paths on Time Dependent Road Networks},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {12},
+  number       = {11},
+  pages        = {1249--1261},
+  year         = {2019},
+  url          = {http://www.vldb.org/pvldb/vol12/p1249-wang.pdf},
+  doi          = {10.14778/3342263.3342265},
+  timestamp    = {Sat, 25 Apr 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/WangLT19.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @article{DBLP:journals/pvldb/RezigCSSTMOTE19,
-  bibtex_show  = {true},
   author       = {El Kindi Rezig and
                   Lei Cao and
                   Michael Stonebraker and
@@ -949,43 +1193,37 @@ preview      = {chart.jpg},
   number       = {12},
   pages        = {1954--1957},
   year         = {2019},
-  html          = {http://www.vldb.org/pvldb/vol12/p1954-rezig.pdf},
+  url          = {http://www.vldb.org/pvldb/vol12/p1954-rezig.pdf},
   doi          = {10.14778/3352063.3352108},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/RezigCSSTMOTE19.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB Demo},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
-
-@article{DBLP:journals/debu/Luo00LZY20,
-  bibtex_show  = {true},
-  author       = {Yuyu Luo and
-                  Nan Tang and
-                  Guoliang Li and
-                  Wenbo Li and
-                  Tianyu Zhao and
-                  Xiang Yu},
-  title        = {DeepEye: {A} Data Science System for Monitoring and Exploring {COVID-19}
-                  Data},
-  journal      = {{IEEE} Data Eng. Bull.},
-  volume       = {43},
-  number       = {2},
-  pages        = {121--132},
-  year         = {2020},
-  html          = {http://sites.computer.org/debull/A20june/p121.pdf},
-  timestamp    = {Tue, 21 Jul 2020 00:40:32 +0200},
-  biburl       = {https://dblp.org/rec/journals/debu/Luo00LZY20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {IEEE Data Eng. Bull.}
+@article{DBLP:journals/tods/0001YWXWLY019,
+  author       = {Sibo Wang and
+                  Renchi Yang and
+                  Runhui Wang and
+                  Xiaokui Xiao and
+                  Zhewei Wei and
+                  Wenqing Lin and
+                  Yin Yang and
+                  Nan Tang},
+  title        = {Efficient Algorithms for Approximate Single-Source Personalized PageRank
+                  Queries},
+  journal      = {{ACM} Trans. Database Syst.},
+  volume       = {44},
+  number       = {4},
+  pages        = {18:1--18:37},
+  year         = {2019},
+  url          = {https://doi.org/10.1145/3360902},
+  doi          = {10.1145/3360902},
+  timestamp    = {Mon, 28 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/tods/0001YWXWLY019.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-
-
 
 @inproceedings{DBLP:conf/icde/DengTAEI0MOS019,
-  bibtex_show  = {true},
   author       = {Dong Deng and
                   Wenbo Tao and
                   Ziawasch Abedjan and
@@ -1002,44 +1240,108 @@ preview      = {chart.jpg},
   pages        = {196--207},
   publisher    = {{IEEE}},
   year         = {2019},
-  html          = {https://doi.org/10.1109/ICDE.2019.00026},
+  url          = {https://doi.org/10.1109/ICDE.2019.00026},
   doi          = {10.1109/ICDE.2019.00026},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/icde/DengTAEI0MOS019.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
-@inproceedings{DBLP:conf/kdd/QahtanEFO018,
-  bibtex_show  = {true},
-  author       = {Abdulhakim Ali Qahtan and
-                  Ahmed K. Elmagarmid and
-                  Raul Castro Fernandez and
+@inproceedings{DBLP:conf/sigmod/Thirumuruganathan19,
+  author       = {Saravanan Thirumuruganathan and
                   Mourad Ouzzani and
                   Nan Tang},
-  editor       = {Yike Guo and
-                  Faisal Farooq},
-  title        = {{FAHES:} {A} Robust Disguised Missing Values Detector},
-  booktitle    = {Proceedings of the 24th {ACM} {SIGKDD} International Conference on
-                  Knowledge Discovery {\&} Data Mining, {KDD} 2018, London, UK,
-                  August 19-23, 2018},
-  pages        = {2100--2109},
+  title        = {Explaining Entity Resolution Predictions: Where are we and What needs
+                  to be done?},
+  booktitle    = {Proceedings of the Workshop on Human-In-the-Loop Data Analytics, HILDA@SIGMOD
+                  2019, Amsterdam, The Netherlands, July 5, 2019},
+  pages        = {10:1--10:6},
   publisher    = {{ACM}},
-  year         = {2018},
-  html          = {https://doi.org/10.1145/3219819.3220109},
-  doi          = {10.1145/3219819.3220109},
-  timestamp    = {Wed, 21 Nov 2018 12:44:27 +0100},
-  biburl       = {https://dblp.org/rec/conf/kdd/QahtanEFO018.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {KDD},
+  year         = {2019},
+  url          = {https://doi.org/10.1145/3328519.3329130},
+  doi          = {10.1145/3328519.3329130},
+  timestamp    = {Wed, 25 Sep 2019 13:30:59 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/Thirumuruganathan19.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@inproceedings{DBLP:conf/sigmod/MahdaviAFMOS019,
+  author       = {Mohammad Mahdavi and
+                  Ziawasch Abedjan and
+                  Raul Castro Fernandez and
+                  Samuel Madden and
+                  Mourad Ouzzani and
+                  Michael Stonebraker and
+                  Nan Tang},
+  editor       = {Peter A. Boncz and
+                  Stefan Manegold and
+                  Anastasia Ailamaki and
+                  Amol Deshpande and
+                  Tim Kraska},
+  title        = {Raha: {A} Configuration-Free Error Detection System},
+  booktitle    = {Proceedings of the 2019 International Conference on Management of
+                  Data, {SIGMOD} Conference 2019, Amsterdam, The Netherlands, June 30
+                  - July 5, 2019},
+  pages        = {865--882},
+  publisher    = {{ACM}},
+  year         = {2019},
+  url          = {https://doi.org/10.1145/3299869.3324956},
+  doi          = {10.1145/3299869.3324956},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/MahdaviAFMOS019.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
+@inproceedings{DBLP:conf/sigmod/Qahtan0OCS19,
+  author       = {Abdulhakim Ali Qahtan and
+                  Nan Tang and
+                  Mourad Ouzzani and
+                  Yang Cao and
+                  Michael Stonebraker},
+  editor       = {Peter A. Boncz and
+                  Stefan Manegold and
+                  Anastasia Ailamaki and
+                  Amol Deshpande and
+                  Tim Kraska},
+  title        = {{ANMAT:} Automatic Knowledge Discovery and Error Detection through
+                  Pattern Functional Dependencies},
+  booktitle    = {Proceedings of the 2019 International Conference on Management of
+                  Data, {SIGMOD} Conference 2019, Amsterdam, The Netherlands, June 30
+                  - July 5, 2019},
+  pages        = {1977--1980},
+  publisher    = {{ACM}},
+  year         = {2019},
+  url          = {https://doi.org/10.1145/3299869.3320209},
+  doi          = {10.1145/3299869.3320209},
+  timestamp    = {Sat, 19 Oct 2019 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/Qahtan0OCS19.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
+@inproceedings{DBLP:conf/sigmod/TangWL19,
+  author       = {Nan Tang and
+                  Eugene Wu and
+                  Guoliang Li},
+  editor       = {Peter A. Boncz and
+                  Stefan Manegold and
+                  Anastasia Ailamaki and
+                  Amol Deshpande and
+                  Tim Kraska},
+  title        = {Towards Democratizing Relational Data Visualization},
+  booktitle    = {Proceedings of the 2019 International Conference on Management of
+                  Data, {SIGMOD} Conference 2019, Amsterdam, The Netherlands, June 30
+                  - July 5, 2019},
+  pages        = {2025--2030},
+  publisher    = {{ACM}},
+  year         = {2019},
+  url          = {https://doi.org/10.1145/3299869.3314029},
+  doi          = {10.1145/3299869.3314029},
+  timestamp    = {Sun, 07 Jul 2019 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/TangWL19.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @incollection{DBLP:books/mc/19/Ouzzani0F14,
-  bibtex_show  = {true},
   author       = {Mourad Ouzzani and
                   Nan Tang and
                   Raul Castro Fernandez},
@@ -1052,18 +1354,240 @@ preview      = {chart.jpg},
   pages        = {291--300},
   publisher    = {{ACM} / Morgan {\&} Claypool},
   year         = {2019},
-  html          = {https://doi.org/10.1145/3226595.3226621},
+  url          = {https://doi.org/10.1145/3226595.3226621},
   doi          = {10.1145/3226595.3226621},
   timestamp    = {Fri, 18 Aug 2023 18:10:49 +0200},
   biburl       = {https://dblp.org/rec/books/mc/19/Ouzzani0F14.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {ACM Book},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{DBLP:journals/corr/abs-1903-03229,
+  author       = {John K. Feser and
+                  Samuel Madden and
+                  Nan Tang and
+                  Armando Solar{-}Lezama},
+  title        = {Deductive Optimization of Relational Data Storage},
+  journal      = {CoRR},
+  volume       = {abs/1903.03229},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1903.03229},
+  eprinttype    = {arXiv},
+  eprint       = {1903.03229},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1903-03229.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
+@article{DBLP:journals/corr/abs-1906-06574,
+  author       = {Ji Sun and
+                  Dong Deng and
+                  Ihab F. Ilyas and
+                  Guoliang Li and
+                  Samuel Madden and
+                  Mourad Ouzzani and
+                  Michael Stonebraker and
+                  Nan Tang},
+  title        = {Technical Report: Optimizing Human Involvement for Entity Matching
+                  and Consolidation},
+  journal      = {CoRR},
+  volume       = {abs/1906.06574},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1906.06574},
+  eprinttype    = {arXiv},
+  eprint       = {1906.06574},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1906-06574.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1908-10583,
+  author       = {Sibo Wang and
+                  Renchi Yang and
+                  Runhui Wang and
+                  Xiaokui Xiao and
+                  Zhewei Wei and
+                  Wenqing Lin and
+                  Yin Yang and
+                  Nan Tang},
+  title        = {Efficient Algorithms for Approximate Single-Source Personalized PageRank
+                  Queries},
+  journal      = {CoRR},
+  volume       = {abs/1908.10583},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1908.10583},
+  eprinttype    = {arXiv},
+  eprint       = {1908.10583},
+  timestamp    = {Sun, 21 Jun 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1908-10583.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1911-11876,
+  author       = {Raul Castro Fernandez and
+                  Nan Tang and
+                  Mourad Ouzzani and
+                  Michael Stonebraker and
+                  Samuel Madden},
+  title        = {Dataset-On-Demand: Automatic View Search and Presentation for Data
+                  Discovery},
+  journal      = {CoRR},
+  volume       = {abs/1911.11876},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1911.11876},
+  eprinttype    = {arXiv},
+  eprint       = {1911.11876},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1911-11876.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/bigdatama/QinLTL18,
+  author       = {Xuedi Qin and
+                  Yuyu Luo and
+                  Nan Tang and
+                  Guoliang Li},
+  title        = {DeepEye: An automatic big data visualization framework},
+  journal      = {Big Data Min. Anal.},
+  volume       = {1},
+  number       = {1},
+  pages        = {75--82},
+  year         = {2018},
+  url          = {https://doi.org/10.26599/BDMA.2018.9020007},
+  doi          = {10.26599/BDMA.2018.9020007},
+  timestamp    = {Sat, 09 May 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/bigdatama/QinLTL18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/AgrawalCCEIKKLM18,
+  author       = {Divy Agrawal and
+                  Sanjay Chawla and
+                  Bertty Contreras{-}Rojas and
+                  Ahmed K. Elmagarmid and
+                  Yasser Idris and
+                  Zoi Kaoudi and
+                  Sebastian Kruse and
+                  Ji Lucas and
+                  Essam Mansour and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Saravanan Thirumuruganathan and
+                  Anis Troudi},
+  title        = {{RHEEM:} Enabling Cross-Platform Data Processing - May The Big Data
+                  Be With You! -},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {11},
+  number       = {11},
+  pages        = {1414--1427},
+  year         = {2018},
+  url          = {http://www.vldb.org/pvldb/vol11/p1414-agrawal.pdf},
+  doi          = {10.14778/3236187.3236195},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/AgrawalCCEIKKLM18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/EbraheemTJOT18,
+  author       = {Muhammad Ebraheem and
+                  Saravanan Thirumuruganathan and
+                  Shafiq R. Joty and
+                  Mourad Ouzzani and
+                  Nan Tang},
+  title        = {Distributed Representations of Tuples for Entity Resolution},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {11},
+  number       = {11},
+  pages        = {1454--1467},
+  year         = {2018},
+  url          = {http://www.vldb.org/pvldb/vol11/p1454-ebraheem.pdf},
+  doi          = {10.14778/3236187.3236198},
+  timestamp    = {Sat, 25 Apr 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/EbraheemTJOT18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/vldb/HaoTLLF18,
+  author       = {Shuang Hao and
+                  Nan Tang and
+                  Guoliang Li and
+                  Jian Li and
+                  Jianhua Feng},
+  title        = {Distilling relations using knowledge bases},
+  journal      = {{VLDB} J.},
+  volume       = {27},
+  number       = {4},
+  pages        = {497--519},
+  year         = {2018},
+  url          = {https://doi.org/10.1007/s00778-018-0506-9},
+  doi          = {10.1007/S00778-018-0506-9},
+  timestamp    = {Tue, 12 May 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/vldb/HaoTLLF18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/edbt/QinL0018,
+  author       = {Xuedi Qin and
+                  Yuyu Luo and
+                  Nan Tang and
+                  Guoliang Li},
+  editor       = {Michael H. B{\"{o}}hlen and
+                  Reinhard Pichler and
+                  Norman May and
+                  Erhard Rahm and
+                  Shan{-}Hung Wu and
+                  Katja Hose},
+  title        = {DeepEye: Visualizing Your Data by Keyword Search},
+  booktitle    = {Proceedings of the 21st International Conference on Extending Database
+                  Technology, {EDBT} 2018, Vienna, Austria, March 26-29, 2018},
+  pages        = {441--444},
+  publisher    = {OpenProceedings.org},
+  year         = {2018},
+  url          = {https://doi.org/10.5441/002/edbt.2018.42},
+  doi          = {10.5441/002/EDBT.2018.42},
+  timestamp    = {Fri, 29 Jan 2021 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/edbt/QinL0018.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/LuoQ0018,
+  author       = {Yuyu Luo and
+                  Xuedi Qin and
+                  Nan Tang and
+                  Guoliang Li},
+  title        = {DeepEye: Towards Automatic Data Visualization},
+  booktitle    = {34th {IEEE} International Conference on Data Engineering, {ICDE} 2018,
+                  Paris, France, April 16-19, 2018},
+  pages        = {101--112},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2018},
+  url          = {https://doi.org/10.1109/ICDE.2018.00019},
+  doi          = {10.1109/ICDE.2018.00019},
+  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/LuoQ0018.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/Hao00F18,
+  author       = {Shuang Hao and
+                  Nan Tang and
+                  Guoliang Li and
+                  Jianhua Feng},
+  title        = {Discovering Mis-Categorized Entities},
+  booktitle    = {34th {IEEE} International Conference on Data Engineering, {ICDE} 2018,
+                  Paris, France, April 16-19, 2018},
+  pages        = {413--424},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2018},
+  url          = {https://doi.org/10.1109/ICDE.2018.00045},
+  doi          = {10.1109/ICDE.2018.00045},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/Hao00F18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @inproceedings{DBLP:conf/icde/FernandezMQEIMO18,
-  bibtex_show  = {true},
   author       = {Raul Castro Fernandez and
                   Essam Mansour and
                   Abdulhakim Ali Qahtan and
@@ -1080,18 +1604,14 @@ preview      = {chart.jpg},
   pages        = {989--1000},
   publisher    = {{IEEE} Computer Society},
   year         = {2018},
-  html          = {https://doi.org/10.1109/ICDE.2018.00093},
+  url          = {https://doi.org/10.1109/ICDE.2018.00093},
   doi          = {10.1109/ICDE.2018.00093},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/icde/FernandezMQEIMO18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {ICDE},  
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
 @inproceedings{DBLP:conf/icde/MansourDFQTAEIM18,
-  bibtex_show  = {true},
   author       = {Essam Mansour and
                   Dong Deng and
                   Raul Castro Fernandez and
@@ -1110,66 +1630,169 @@ preview      = {chart.jpg},
   pages        = {1593--1596},
   publisher    = {{IEEE} Computer Society},
   year         = {2018},
-  html          = {https://doi.org/10.1109/ICDE.2018.00184},
+  url          = {https://doi.org/10.1109/ICDE.2018.00184},
   doi          = {10.1109/ICDE.2018.00184},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/icde/MansourDFQTAEIM18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {ICDE Demo},  
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
-@inproceedings{DBLP:conf/edbt/QinL0018,
-  bibtex_show  = {true},
-  author       = {Xuedi Qin and
-                  Yuyu Luo and
+@inproceedings{DBLP:conf/icde/HaoX0LF18,
+  author       = {Shuang Hao and
+                  Yi Xu and
                   Nan Tang and
-                  Guoliang Li},
-  editor       = {Michael H. B{\"{o}}hlen and
-                  Reinhard Pichler and
-                  Norman May and
-                  Erhard Rahm and
-                  Shan{-}Hung Wu and
-                  Katja Hose},
-  title        = {DeepEye: Visualizing Your Data by Keyword Search},
-  booktitle    = {Proceedings of the 21st International Conference on Extending Database
-                  Technology, {EDBT} 2018, Vienna, Austria, March 26-29, 2018},
-  pages        = {441--444},
-  publisher    = {OpenProceedings.org},
+                  Guoliang Li and
+                  Jianhua Feng},
+  title        = {Cleaning Your Wrong Google Scholar Entries},
+  booktitle    = {34th {IEEE} International Conference on Data Engineering, {ICDE} 2018,
+                  Paris, France, April 16-19, 2018},
+  pages        = {1597--1600},
+  publisher    = {{IEEE} Computer Society},
   year         = {2018},
-  html          = {https://doi.org/10.5441/002/edbt.2018.42},
-  doi          = {10.5441/002/edbt.2018.42},
-  timestamp    = {Fri, 29 Jan 2021 22:08:42 +0100},
-  biburl       = {https://dblp.org/rec/conf/edbt/QinL0018.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {EDBT},   
+  url          = {https://doi.org/10.1109/ICDE.2018.00185},
+  doi          = {10.1109/ICDE.2018.00185},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/HaoX0LF18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@inproceedings{DBLP:conf/icde/QahtanEO018,
+  author       = {Abdulhakim Ali Qahtan and
+                  Ahmed K. Elmagarmid and
+                  Mourad Ouzzani and
+                  Nan Tang},
+  title        = {{FAHES:} Detecting Disguised Missing Values},
+  booktitle    = {34th {IEEE} International Conference on Data Engineering, {ICDE} 2018,
+                  Paris, France, April 16-19, 2018},
+  pages        = {1609--1612},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2018},
+  url          = {https://doi.org/10.1109/ICDE.2018.00188},
+  doi          = {10.1109/ICDE.2018.00188},
+  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/QahtanEO018.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
-@inproceedings{DBLP:conf/icde/LuoQ0018,
-  bibtex_show  = {true},
+@inproceedings{DBLP:conf/kdd/QahtanEFO018,
+  author       = {Abdulhakim Ali Qahtan and
+                  Ahmed K. Elmagarmid and
+                  Raul Castro Fernandez and
+                  Mourad Ouzzani and
+                  Nan Tang},
+  editor       = {Yike Guo and
+                  Faisal Farooq},
+  title        = {{FAHES:} {A} Robust Disguised Missing Values Detector},
+  booktitle    = {Proceedings of the 24th {ACM} {SIGKDD} International Conference on
+                  Knowledge Discovery {\&} Data Mining, {KDD} 2018, London, UK,
+                  August 19-23, 2018},
+  pages        = {2100--2109},
+  publisher    = {{ACM}},
+  year         = {2018},
+  url          = {https://doi.org/10.1145/3219819.3220109},
+  doi          = {10.1145/3219819.3220109},
+  timestamp    = {Wed, 21 Nov 2018 12:44:27 +0100},
+  biburl       = {https://dblp.org/rec/conf/kdd/QahtanEFO018.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/LuoQ00W18,
   author       = {Yuyu Luo and
                   Xuedi Qin and
                   Nan Tang and
-                  Guoliang Li},
-  title        = {DeepEye: Towards Automatic Data Visualization},
-  booktitle    = {34th {IEEE} International Conference on Data Engineering, {ICDE} 2018,
-                  Paris, France, April 16-19, 2018},
-  pages        = {101--112},
-  publisher    = {{IEEE} Computer Society},
+                  Guoliang Li and
+                  Xinran Wang},
+  editor       = {Gautam Das and
+                  Christopher M. Jermaine and
+                  Philip A. Bernstein},
+  title        = {DeepEye: Creating Good Data Visualizations by Keyword Search},
+  booktitle    = {Proceedings of the 2018 International Conference on Management of
+                  Data, {SIGMOD} Conference 2018, Houston, TX, USA, June 10-15, 2018},
+  pages        = {1733--1736},
+  publisher    = {{ACM}},
   year         = {2018},
-  html          = {https://doi.org/10.1109/ICDE.2018.00019},
-  doi          = {10.1109/ICDE.2018.00019},
-  timestamp    = {Thu, 23 Mar 2023 23:59:58 +0100},
-  biburl       = {https://dblp.org/rec/conf/icde/LuoQ0018.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {ICDE},   
+  url          = {https://doi.org/10.1145/3183713.3193545},
+  doi          = {10.1145/3183713.3193545},
+  timestamp    = {Wed, 21 Nov 2018 12:44:08 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigmod/LuoQ00W18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{DBLP:journals/corr/abs-1803-01384,
+  author       = {Saravanan Thirumuruganathan and
+                  Nan Tang and
+                  Mourad Ouzzani},
+  title        = {Data Curation with Deep Learning [Vision]: Towards Self Driving Data
+                  Curation},
+  journal      = {CoRR},
+  volume       = {abs/1803.01384},
+  year         = {2018},
+  url          = {http://arxiv.org/abs/1803.01384},
+  eprinttype    = {arXiv},
+  eprint       = {1803.01384},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1803-01384.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1809-11084,
+  author       = {Saravanan Thirumuruganathan and
+                  Shameem Ahamed Puthiya Parambath and
+                  Mourad Ouzzani and
+                  Nan Tang and
+                  Shafiq R. Joty},
+  title        = {Reuse and Adaptation for Entity Resolution through Transfer Learning},
+  journal      = {CoRR},
+  volume       = {abs/1809.11084},
+  year         = {2018},
+  url          = {http://arxiv.org/abs/1809.11084},
+  eprinttype    = {arXiv},
+  eprint       = {1809.11084},
+  timestamp    = {Fri, 05 Oct 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1809-11084.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/jdiq/WangT17,
+  author       = {Jiannan Wang and
+                  Nan Tang},
+  title        = {Dependable Data Repairing with Fixing Rules},
+  journal      = {{ACM} J. Data Inf. Qual.},
+  volume       = {8},
+  number       = {3-4},
+  pages        = {16:1--16:34},
+  year         = {2017},
+  url          = {https://doi.org/10.1145/3041761},
+  doi          = {10.1145/3041761},
+  timestamp    = {Fri, 18 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/jdiq/WangT17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/KhayyatLSOPQTK17,
+  author       = {Zuhair Khayyat and
+                  William Lucia and
+                  Meghna Singh and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Panos Kalnis},
+  title        = {Errata for "Lightning Fast and Space Efficient Inequality Joins"
+                  {(PVLDB} 8(13): 2074-2085)},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {10},
+  number       = {9},
+  pages        = {985},
+  year         = {2017},
+  url          = {http://www.vldb.org/pvldb/vol10/p985-quianeruiz-errata.pdf},
+  doi          = {10.14778/3099622.3099629},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/KhayyatLSOPQTK17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @article{DBLP:journals/pvldb/SinghMEMPQST17,
-  bibtex_show  = {true},
   author       = {Rohit Singh and
                   Venkata Vamsikrishna Meduri and
                   Ahmed K. Elmagarmid and
@@ -1184,18 +1807,56 @@ preview      = {chart.jpg},
   number       = {2},
   pages        = {189--202},
   year         = {2017},
-  html          = {http://www.vldb.org/pvldb/vol11/p189-singh.pdf},
+  url          = {http://www.vldb.org/pvldb/vol11/p189-singh.pdf},
   doi          = {10.14778/3149193.3149199},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/journals/pvldb/SinghMEMPQST17.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {VLDB},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{DBLP:journals/tkde/Hao0LHTF17,
+  author       = {Shuang Hao and
+                  Nan Tang and
+                  Guoliang Li and
+                  Jian He and
+                  Na Ta and
+                  Jianhua Feng},
+  title        = {A Novel Cost-Based Model for Data Repairing},
+  journal      = {{IEEE} Trans. Knowl. Data Eng.},
+  volume       = {29},
+  number       = {4},
+  pages        = {727--742},
+  year         = {2017},
+  url          = {https://doi.org/10.1109/TKDE.2016.2637928},
+  doi          = {10.1109/TKDE.2016.2637928},
+  timestamp    = {Tue, 18 May 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/tkde/Hao0LHTF17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
+@article{DBLP:journals/vldb/KhayyatLSOPQ0K17,
+  author       = {Zuhair Khayyat and
+                  William Lucia and
+                  Meghna Singh and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Panos Kalnis},
+  title        = {Fast and scalable inequality joins},
+  journal      = {{VLDB} J.},
+  volume       = {26},
+  number       = {1},
+  pages        = {125--150},
+  year         = {2017},
+  url          = {https://doi.org/10.1007/s00778-016-0441-6},
+  doi          = {10.1007/S00778-016-0441-6},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/vldb/KhayyatLSOPQ0K17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 @inproceedings{DBLP:conf/cidr/DengFAWSEIMO017,
-  bibtex_show  = {true},
   author       = {Dong Deng and
                   Raul Castro Fernandez and
                   Ziawasch Abedjan and
@@ -1211,10 +1872,1177 @@ preview      = {chart.jpg},
                   2017, Chaminade, CA, USA, January 8-11, 2017, Online Proceedings},
   publisher    = {www.cidrdb.org},
   year         = {2017},
-  html          = {http://cidrdb.org/cidr2017/papers/p44-deng-cidr17.pdf},
-  timestamp    = {Tue, 08 Aug 2023 10:54:18 +0200},
+  url          = {http://cidrdb.org/cidr2017/papers/p44-deng-cidr17.pdf},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/cidr/DengFAWSEIMO017.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {CIDR},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/Hao0LHTF17,
+  author       = {Shuang Hao and
+                  Nan Tang and
+                  Guoliang Li and
+                  Jian He and
+                  Na Ta and
+                  Jianhua Feng},
+  title        = {A Novel Cost-Based Model for Data Repairing},
+  booktitle    = {33rd {IEEE} International Conference on Data Engineering, {ICDE} 2017,
+                  San Diego, CA, USA, April 19-22, 2017},
+  pages        = {49--50},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2017},
+  url          = {https://doi.org/10.1109/ICDE.2017.31},
+  doi          = {10.1109/ICDE.2017.31},
+  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/Hao0LHTF17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/Hao0LL17,
+  author       = {Shuang Hao and
+                  Nan Tang and
+                  Guoliang Li and
+                  Jian Li},
+  title        = {Cleaning Relations Using Knowledge Bases},
+  booktitle    = {33rd {IEEE} International Conference on Data Engineering, {ICDE} 2017,
+                  San Diego, CA, USA, April 19-22, 2017},
+  pages        = {933--944},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2017},
+  url          = {https://doi.org/10.1109/ICDE.2017.141},
+  doi          = {10.1109/ICDE.2017.141},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/Hao0LL17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sebd/VeltriSMPHL017,
+  author       = {Enzo Veltri and
+                  Donatello Santoro and
+                  Giansalvatore Mecca and
+                  Paolo Papotti and
+                  Jian He and
+                  Gouliang Li and
+                  Nan Tang},
+  editor       = {Sergio Flesca and
+                  Sergio Greco and
+                  Elio Masciari and
+                  Domenico Sacc{\`{a}}},
+  title        = {Interactive Data Repairing: the {FALCON} Dive},
+  booktitle    = {Proceedings of the 25th Italian Symposium on Advanced Database Systems,
+                  Squillace Lido (Catanzaro), Italy, June 25-29, 2017},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {2037},
+  pages        = {267},
+  publisher    = {CEUR-WS.org},
+  year         = {2017},
+  url          = {https://ceur-ws.org/Vol-2037/paper\_38.pdf},
+  timestamp    = {Fri, 10 Mar 2023 16:23:21 +0100},
+  biburl       = {https://dblp.org/rec/conf/sebd/VeltriSMPHL017.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/Thirumuruganathan17,
+  author       = {Saravanan Thirumuruganathan and
+                  Laure Berti{-}{\'{E}}quille and
+                  Mourad Ouzzani and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang},
+  editor       = {Semih Salihoglu and
+                  Wenchao Zhou and
+                  Rada Chirkova and
+                  Jun Yang and
+                  Dan Suciu},
+  title        = {UGuide: User-Guided Discovery of FD-Detectable Errors},
+  booktitle    = {Proceedings of the 2017 {ACM} International Conference on Management
+                  of Data, {SIGMOD} Conference 2017, Chicago, IL, USA, May 14-19, 2017},
+  pages        = {1385--1397},
+  publisher    = {{ACM}},
+  year         = {2017},
+  url          = {https://doi.org/10.1145/3035918.3064024},
+  doi          = {10.1145/3035918.3064024},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/Thirumuruganathan17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/0002MEMPQS017,
+  author       = {Rohit Singh and
+                  Venkata Vamsikrishna Meduri and
+                  Ahmed K. Elmagarmid and
+                  Samuel Madden and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Armando Solar{-}Lezama and
+                  Nan Tang},
+  editor       = {Semih Salihoglu and
+                  Wenchao Zhou and
+                  Rada Chirkova and
+                  Jun Yang and
+                  Dan Suciu},
+  title        = {Generating Concise Entity Matching Rules},
+  booktitle    = {Proceedings of the 2017 {ACM} International Conference on Management
+                  of Data, {SIGMOD} Conference 2017, Chicago, IL, USA, May 14-19, 2017},
+  pages        = {1635--1638},
+  publisher    = {{ACM}},
+  year         = {2017},
+  url          = {https://doi.org/10.1145/3035918.3058739},
+  doi          = {10.1145/3035918.3058739},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/0002MEMPQS017.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/FernandezDMQTAE17,
+  author       = {Raul Castro Fernandez and
+                  Dong Deng and
+                  Essam Mansour and
+                  Abdulhakim Ali Qahtan and
+                  Wenbo Tao and
+                  Ziawasch Abedjan and
+                  Ahmed K. Elmagarmid and
+                  Ihab F. Ilyas and
+                  Samuel Madden and
+                  Mourad Ouzzani and
+                  Michael Stonebraker and
+                  Nan Tang},
+  editor       = {Semih Salihoglu and
+                  Wenchao Zhou and
+                  Rada Chirkova and
+                  Jun Yang and
+                  Dan Suciu},
+  title        = {A Demo of the Data Civilizer System},
+  booktitle    = {Proceedings of the 2017 {ACM} International Conference on Management
+                  of Data, {SIGMOD} Conference 2017, Chicago, IL, USA, May 14-19, 2017},
+  pages        = {1639--1642},
+  publisher    = {{ACM}},
+  year         = {2017},
+  url          = {https://doi.org/10.1145/3035918.3058740},
+  doi          = {10.1145/3035918.3058740},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/FernandezDMQTAE17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1709-10436,
+  author       = {Dong Deng and
+                  Wenbo Tao and
+                  Ziawasch Abedjan and
+                  Ahmed K. Elmagarmid and
+                  Ihab F. Ilyas and
+                  Samuel Madden and
+                  Mourad Ouzzani and
+                  Michael Stonebraker and
+                  Nan Tang},
+  title        = {Entity Consolidation: The Golden Record Problem},
+  journal      = {CoRR},
+  volume       = {abs/1709.10436},
+  year         = {2017},
+  url          = {http://arxiv.org/abs/1709.10436},
+  eprinttype    = {arXiv},
+  eprint       = {1709.10436},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1709-10436.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1710-00597,
+  author       = {Muhammad Ebraheem and
+                  Saravanan Thirumuruganathan and
+                  Shafiq R. Joty and
+                  Mourad Ouzzani and
+                  Nan Tang},
+  title        = {DeepER - Deep Entity Resolution},
+  journal      = {CoRR},
+  volume       = {abs/1710.00597},
+  year         = {2017},
+  url          = {http://arxiv.org/abs/1710.00597},
+  eprinttype    = {arXiv},
+  eprint       = {1710.00597},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1710-00597.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/AbedjanCDFIOPST16,
+  author       = {Ziawasch Abedjan and
+                  Xu Chu and
+                  Dong Deng and
+                  Raul Castro Fernandez and
+                  Ihab F. Ilyas and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Michael Stonebraker and
+                  Nan Tang},
+  title        = {Detecting Data Errors: Where are we and what needs to be done?},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {9},
+  number       = {12},
+  pages        = {993--1004},
+  year         = {2016},
+  url          = {http://www.vldb.org/pvldb/vol9/p993-abedjan.pdf},
+  doi          = {10.14778/2994509.2994518},
+  timestamp    = {Mon, 03 Jan 2022 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/pvldb/AbedjanCDFIOPST16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/edbt/AgrawalCEKOPQ0Z16,
+  author       = {Divy Agrawal and
+                  Sanjay Chawla and
+                  Ahmed K. Elmagarmid and
+                  Zoi Kaoudi and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Mohammed J. Zaki},
+  editor       = {Evaggelia Pitoura and
+                  Sofian Maabout and
+                  Georgia Koutrika and
+                  Am{\'{e}}lie Marian and
+                  Letizia Tanca and
+                  Ioana Manolescu and
+                  Kostas Stefanidis},
+  title        = {Road to Freedom in Big Data Analytics},
+  booktitle    = {Proceedings of the 19th International Conference on Extending Database
+                  Technology, {EDBT} 2016, Bordeaux, France, March 15-16, 2016, Bordeaux,
+                  France, March 15-16, 2016},
+  pages        = {479--484},
+  publisher    = {OpenProceedings.org},
+  year         = {2016},
+  url          = {https://doi.org/10.5441/002/edbt.2016.45},
+  doi          = {10.5441/002/EDBT.2016.45},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/edbt/AgrawalCEKOPQ0Z16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/HeVSLMPT16,
+  author       = {Jian He and
+                  Enzo Veltri and
+                  Donatello Santoro and
+                  Guoliang Li and
+                  Giansalvatore Mecca and
+                  Paolo Papotti and
+                  Nan Tang},
+  editor       = {Fatma {\"{O}}zcan and
+                  Georgia Koutrika and
+                  Sam Madden},
+  title        = {Interactive and Deterministic Data Cleaning},
+  booktitle    = {Proceedings of the 2016 International Conference on Management of
+                  Data, {SIGMOD} Conference 2016, San Francisco, CA, USA, June 26 -
+                  July 01, 2016},
+  pages        = {893--907},
+  publisher    = {{ACM}},
+  year         = {2016},
+  url          = {https://doi.org/10.1145/2882903.2915242},
+  doi          = {10.1145/2882903.2915242},
+  timestamp    = {Wed, 14 Nov 2018 10:56:20 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigmod/HeVSLMPT16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/0001CM16,
+  author       = {Nan Tang and
+                  Qing Chen and
+                  Prasenjit Mitra},
+  editor       = {Fatma {\"{O}}zcan and
+                  Georgia Koutrika and
+                  Sam Madden},
+  title        = {Graph Stream Summarization: From Big Bang to Big Crunch},
+  booktitle    = {Proceedings of the 2016 International Conference on Management of
+                  Data, {SIGMOD} Conference 2016, San Francisco, CA, USA, June 26 -
+                  July 01, 2016},
+  pages        = {1481--1496},
+  publisher    = {{ACM}},
+  year         = {2016},
+  url          = {https://doi.org/10.1145/2882903.2915223},
+  doi          = {10.1145/2882903.2915223},
+  timestamp    = {Tue, 06 Nov 2018 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigmod/0001CM16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/AgrawalBBCEHIKK16,
+  author       = {Divy Agrawal and
+                  Mouhamadou Lamine Ba and
+                  Laure Berti{-}{\'{E}}quille and
+                  Sanjay Chawla and
+                  Ahmed K. Elmagarmid and
+                  Hossam Hammady and
+                  Yasser Idris and
+                  Zoi Kaoudi and
+                  Zuhair Khayyat and
+                  Sebastian Kruse and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Mohammed J. Zaki},
+  editor       = {Fatma {\"{O}}zcan and
+                  Georgia Koutrika and
+                  Sam Madden},
+  title        = {Rheem: Enabling Multi-Platform Task Execution},
+  booktitle    = {Proceedings of the 2016 International Conference on Management of
+                  Data, {SIGMOD} Conference 2016, San Francisco, CA, USA, June 26 -
+                  July 01, 2016},
+  pages        = {2069--2072},
+  publisher    = {{ACM}},
+  year         = {2016},
+  url          = {https://doi.org/10.1145/2882903.2899414},
+  doi          = {10.1145/2882903.2899414},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/AgrawalBBCEHIKK16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/ChuOMIP0Y15,
+  author       = {Xu Chu and
+                  Mourad Ouzzani and
+                  John Morcos and
+                  Ihab F. Ilyas and
+                  Paolo Papotti and
+                  Nan Tang and
+                  Yin Ye},
+  title        = {{KATARA:} Reliable Data Cleaning with Knowledge Bases and Crowdsourcing},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {8},
+  number       = {12},
+  pages        = {1952--1955},
+  year         = {2015},
+  url          = {http://www.vldb.org/pvldb/vol8/p1952-chu.pdf},
+  doi          = {10.14778/2824032.2824109},
+  timestamp    = {Sat, 25 Apr 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/ChuOMIP0Y15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/KhayyatLSOPQ0K15,
+  author       = {Zuhair Khayyat and
+                  William Lucia and
+                  Meghna Singh and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Panos Kalnis},
+  title        = {Lightning Fast and Space Efficient Inequality Joins},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {8},
+  number       = {13},
+  pages        = {2074--2085},
+  year         = {2015},
+  url          = {http://www.vldb.org/pvldb/vol8/p2074-khayyat.pdf},
+  doi          = {10.14778/2831360.2831362},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/KhayyatLSOPQ0K15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/InterlandiT15,
+  author       = {Matteo Interlandi and
+                  Nan Tang},
+  editor       = {Johannes Gehrke and
+                  Wolfgang Lehner and
+                  Kyuseok Shim and
+                  Sang Kyun Cha and
+                  Guy M. Lohman},
+  title        = {Proof positive and negative in data cleaning},
+  booktitle    = {31st {IEEE} International Conference on Data Engineering, {ICDE} 2015,
+                  Seoul, South Korea, April 13-17, 2015},
+  pages        = {18--29},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2015},
+  url          = {https://doi.org/10.1109/ICDE.2015.7113269},
+  doi          = {10.1109/ICDE.2015.7113269},
+  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/InterlandiT15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/Tang15,
+  author       = {Nan Tang},
+  title        = {Big {RDF} data cleaning},
+  booktitle    = {31st {IEEE} International Conference on Data Engineering Workshops,
+                  {ICDE} Workshops 2015, Seoul, South Korea, April 13-17, 2015},
+  pages        = {77--79},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2015},
+  url          = {https://doi.org/10.1109/ICDEW.2015.7129549},
+  doi          = {10.1109/ICDEW.2015.7129549},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/Tang15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/KhayyatIJMOPQ0Y15,
+  author       = {Zuhair Khayyat and
+                  Ihab F. Ilyas and
+                  Alekh Jindal and
+                  Samuel Madden and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Si Yin},
+  editor       = {Timos K. Sellis and
+                  Susan B. Davidson and
+                  Zachary G. Ives},
+  title        = {BigDansing: {A} System for Big Data Cleansing},
+  booktitle    = {Proceedings of the 2015 {ACM} {SIGMOD} International Conference on
+                  Management of Data, Melbourne, Victoria, Australia, May 31 - June
+                  4, 2015},
+  pages        = {1215--1230},
+  publisher    = {{ACM}},
+  year         = {2015},
+  url          = {https://doi.org/10.1145/2723372.2747646},
+  doi          = {10.1145/2723372.2747646},
+  timestamp    = {Tue, 08 Aug 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/KhayyatIJMOPQ0Y15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/ChuMIOP0Y15,
+  author       = {Xu Chu and
+                  John Morcos and
+                  Ihab F. Ilyas and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Nan Tang and
+                  Yin Ye},
+  editor       = {Timos K. Sellis and
+                  Susan B. Davidson and
+                  Zachary G. Ives},
+  title        = {{KATARA:} {A} Data Cleaning System Powered by Knowledge Bases and
+                  Crowdsourcing},
+  booktitle    = {Proceedings of the 2015 {ACM} {SIGMOD} International Conference on
+                  Management of Data, Melbourne, Victoria, Australia, May 31 - June
+                  4, 2015},
+  pages        = {1247--1261},
+  publisher    = {{ACM}},
+  year         = {2015},
+  url          = {https://doi.org/10.1145/2723372.2749431},
+  doi          = {10.1145/2723372.2749431},
+  timestamp    = {Wed, 14 Nov 2018 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigmod/ChuMIOP0Y15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/TangCM15,
+  author       = {Nan Tang and
+                  Qing Chen and
+                  Prasenjit Mitra},
+  title        = {On Summarizing Graph Streams},
+  journal      = {CoRR},
+  volume       = {abs/1510.02219},
+  year         = {2015},
+  url          = {http://arxiv.org/abs/1510.02219},
+  eprinttype    = {arXiv},
+  eprint       = {1510.02219},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/TangCM15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/jdiq/FanM0Y14,
+  author       = {Wenfei Fan and
+                  Shuai Ma and
+                  Nan Tang and
+                  Wenyuan Yu},
+  title        = {Interaction between Record Matching and Data Repairing},
+  journal      = {{ACM} J. Data Inf. Qual.},
+  volume       = {4},
+  number       = {4},
+  pages        = {16:1--16:38},
+  year         = {2014},
+  url          = {https://doi.org/10.1145/2567657},
+  doi          = {10.1145/2567657},
+  timestamp    = {Fri, 18 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/jdiq/FanM0Y14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/jdiq/FanG0Y14,
+  author       = {Wenfei Fan and
+                  Floris Geerts and
+                  Nan Tang and
+                  Wenyuan Yu},
+  title        = {Conflict resolution with data currency and consistency},
+  journal      = {{ACM} J. Data Inf. Qual.},
+  volume       = {5},
+  number       = {1-2},
+  pages        = {6:1--6:37},
+  year         = {2014},
+  url          = {https://doi.org/10.1145/2631923},
+  doi          = {10.1145/2631923},
+  timestamp    = {Tue, 29 Dec 2020 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/jdiq/FanG0Y14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/tkde/FanL0Y14,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Nan Tang and
+                  Wenyuan Yu},
+  title        = {Incremental Detection of Inconsistencies in Distributed Data},
+  journal      = {{IEEE} Trans. Knowl. Data Eng.},
+  volume       = {26},
+  number       = {6},
+  pages        = {1367--1383},
+  year         = {2014},
+  url          = {https://doi.org/10.1109/TKDE.2012.138},
+  doi          = {10.1109/TKDE.2012.138},
+  timestamp    = {Thu, 04 Aug 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/tkde/FanL0Y14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/apweb/Tang14,
+  author       = {Nan Tang},
+  editor       = {Lei Chen and
+                  Yan Jia and
+                  Timos K. Sellis and
+                  Guanfeng Liu},
+  title        = {Big Data Cleaning},
+  booktitle    = {Web Technologies and Applications - 16th Asia-Pacific Web Conference,
+                  APWeb 2014, Changsha, China, September 5-7, 2014. Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {8709},
+  pages        = {13--24},
+  publisher    = {Springer},
+  year         = {2014},
+  url          = {https://doi.org/10.1007/978-3-319-11116-2\_2},
+  doi          = {10.1007/978-3-319-11116-2\_2},
+  timestamp    = {Fri, 27 Dec 2019 21:21:32 +0100},
+  biburl       = {https://dblp.org/rec/conf/apweb/Tang14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/WangT14,
+  author       = {Jiannan Wang and
+                  Nan Tang},
+  editor       = {Curtis E. Dyreson and
+                  Feifei Li and
+                  M. Tamer {\"{O}}zsu},
+  title        = {Towards dependable data repairing with fixing rules},
+  booktitle    = {International Conference on Management of Data, {SIGMOD} 2014, Snowbird,
+                  UT, USA, June 22-27, 2014},
+  pages        = {457--468},
+  publisher    = {{ACM}},
+  year         = {2014},
+  url          = {https://doi.org/10.1145/2588555.2610494},
+  doi          = {10.1145/2588555.2610494},
+  timestamp    = {Tue, 06 Nov 2018 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigmod/WangT14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/ElmagarmidIOQ0Y14,
+  author       = {Ahmed K. Elmagarmid and
+                  Ihab F. Ilyas and
+                  Mourad Ouzzani and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Si Yin},
+  editor       = {Curtis E. Dyreson and
+                  Feifei Li and
+                  M. Tamer {\"{O}}zsu},
+  title        = {{NADEEF/ER:} generic and interactive entity resolution},
+  booktitle    = {International Conference on Management of Data, {SIGMOD} 2014, Snowbird,
+                  UT, USA, June 22-27, 2014},
+  pages        = {1071--1074},
+  publisher    = {{ACM}},
+  year         = {2014},
+  url          = {https://doi.org/10.1145/2588555.2594511},
+  doi          = {10.1145/2588555.2594511},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/ElmagarmidIOQ0Y14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/EbaidEIOQ0Y13,
+  author       = {Amr Ebaid and
+                  Ahmed K. Elmagarmid and
+                  Ihab F. Ilyas and
+                  Mourad Ouzzani and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang and
+                  Si Yin},
+  title        = {{NADEEF:} {A} Generalized Data Cleaning System},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {6},
+  number       = {12},
+  pages        = {1218--1221},
+  year         = {2013},
+  url          = {http://www.vldb.org/pvldb/vol6/p1218-tang.pdf},
+  doi          = {10.14778/2536274.2536280},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/EbaidEIOQ0Y13.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/birthday/FanGM0Y13,
+  author       = {Wenfei Fan and
+                  Floris Geerts and
+                  Shuai Ma and
+                  Nan Tang and
+                  Wenyuan Yu},
+  editor       = {Val Tannen and
+                  Limsoon Wong and
+                  Leonid Libkin and
+                  Wenfei Fan and
+                  Wang{-}Chiew Tan and
+                  Michael P. Fourman},
+  title        = {Data Quality Problems beyond Consistency and Deduplication},
+  booktitle    = {In Search of Elegance in the Theory and Practice of Computation -
+                  Essays Dedicated to Peter Buneman},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {8000},
+  pages        = {237--249},
+  publisher    = {Springer},
+  year         = {2013},
+  url          = {https://doi.org/10.1007/978-3-642-41660-6\_12},
+  doi          = {10.1007/978-3-642-41660-6\_12},
+  timestamp    = {Tue, 29 Dec 2020 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/birthday/FanGM0Y13.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/FanGTY13,
+  author       = {Wenfei Fan and
+                  Floris Geerts and
+                  Nan Tang and
+                  Wenyuan Yu},
+  editor       = {Christian S. Jensen and
+                  Christopher M. Jermaine and
+                  Xiaofang Zhou},
+  title        = {Inferring data currency and consistency for conflict resolution},
+  booktitle    = {29th {IEEE} International Conference on Data Engineering, {ICDE} 2013,
+                  Brisbane, Australia, April 8-12, 2013},
+  pages        = {470--481},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2013},
+  url          = {https://doi.org/10.1109/ICDE.2013.6544848},
+  doi          = {10.1109/ICDE.2013.6544848},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/FanGTY13.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/DallachiesaEEEIOT13,
+  author       = {Michele Dallachiesa and
+                  Amr Ebaid and
+                  Ahmed Eldawy and
+                  Ahmed K. Elmagarmid and
+                  Ihab F. Ilyas and
+                  Mourad Ouzzani and
+                  Nan Tang},
+  editor       = {Kenneth A. Ross and
+                  Divesh Srivastava and
+                  Dimitris Papadias},
+  title        = {{NADEEF:} a commodity data cleaning system},
+  booktitle    = {Proceedings of the {ACM} {SIGMOD} International Conference on Management
+                  of Data, {SIGMOD} 2013, New York, NY, USA, June 22-27, 2013},
+  pages        = {541--552},
+  publisher    = {{ACM}},
+  year         = {2013},
+  url          = {https://doi.org/10.1145/2463676.2465327},
+  doi          = {10.1145/2463676.2465327},
+  timestamp    = {Mon, 15 Jun 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/sigmod/DallachiesaEEEIOT13.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/fcsc/FanLMTW12,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Shuai Ma and
+                  Nan Tang and
+                  Yinghui Wu},
+  title        = {Adding regular expressions to graph reachability and pattern queries},
+  journal      = {Frontiers Comput. Sci.},
+  volume       = {6},
+  number       = {3},
+  pages        = {313--338},
+  year         = {2012},
+  url          = {https://doi.org/10.1007/s11704-012-1312-y},
+  doi          = {10.1007/S11704-012-1312-Y},
+  timestamp    = {Mon, 14 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/fcsc/FanLMTW12.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/sigmod/BeskalesDEINOPQT12,
+  author       = {George Beskales and
+                  Gautam Das and
+                  Ahmed K. Elmagarmid and
+                  Ihab F. Ilyas and
+                  Felix Naumann and
+                  Mourad Ouzzani and
+                  Paolo Papotti and
+                  Jorge{-}Arnulfo Quian{\'{e}}{-}Ruiz and
+                  Nan Tang},
+  title        = {The data analytics group at the qatar computing research institute},
+  journal      = {{SIGMOD} Rec.},
+  volume       = {41},
+  number       = {4},
+  pages        = {33--38},
+  year         = {2012},
+  url          = {https://doi.org/10.1145/2430456.2430466},
+  doi          = {10.1145/2430456.2430466},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/sigmod/BeskalesDEINOPQT12.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/vldb/FanLMTY12,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Shuai Ma and
+                  Nan Tang and
+                  Wenyuan Yu},
+  title        = {Towards certain fixes with editing rules and master data},
+  journal      = {{VLDB} J.},
+  volume       = {21},
+  number       = {2},
+  pages        = {213--238},
+  year         = {2012},
+  url          = {https://doi.org/10.1007/s00778-011-0253-7},
+  doi          = {10.1007/S00778-011-0253-7},
+  timestamp    = {Mon, 14 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/vldb/FanLMTY12.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/FanLTY12,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Nan Tang and
+                  Wenyuan Yu},
+  editor       = {Anastasios Kementsietsidis and
+                  Marcos Antonio Vaz Salles},
+  title        = {Incremental Detection of Inconsistencies in Distributed Data},
+  booktitle    = {{IEEE} 28th International Conference on Data Engineering {(ICDE} 2012),
+                  Washington, DC, {USA} (Arlington, Virginia), 1-5 April, 2012},
+  pages        = {318--329},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2012},
+  url          = {https://doi.org/10.1109/ICDE.2012.82},
+  doi          = {10.1109/ICDE.2012.82},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/FanLTY12.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/FanLMTY11,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Shuai Ma and
+                  Nan Tang and
+                  Wenyuan Yu},
+  title        = {CerFix: {A} System for Cleaning Data with Certain Fixes},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {4},
+  number       = {12},
+  pages        = {1375--1378},
+  year         = {2011},
+  url          = {http://www.vldb.org/pvldb/vol4/p1375-fan.pdf},
+  timestamp    = {Mon, 14 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/FanLMTY11.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/FanLMTW11,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Shuai Ma and
+                  Nan Tang and
+                  Yinghui Wu},
+  editor       = {Serge Abiteboul and
+                  Klemens B{\"{o}}hm and
+                  Christoph Koch and
+                  Kian{-}Lee Tan},
+  title        = {Adding regular expressions to graph reachability and pattern queries},
+  booktitle    = {Proceedings of the 27th International Conference on Data Engineering,
+                  {ICDE} 2011, April 11-16, 2011, Hannover, Germany},
+  pages        = {39--50},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2011},
+  url          = {https://doi.org/10.1109/ICDE.2011.5767858},
+  doi          = {10.1109/ICDE.2011.5767858},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/FanLMTW11.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigmod/FanLMTY11,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Shuai Ma and
+                  Nan Tang and
+                  Wenyuan Yu},
+  editor       = {Timos K. Sellis and
+                  Ren{\'{e}}e J. Miller and
+                  Anastasios Kementsietsidis and
+                  Yannis Velegrakis},
+  title        = {Interaction between record matching and data repairing},
+  booktitle    = {Proceedings of the {ACM} {SIGMOD} International Conference on Management
+                  of Data, {SIGMOD} 2011, Athens, Greece, June 12-16, 2011},
+  pages        = {469--480},
+  publisher    = {{ACM}},
+  year         = {2011},
+  url          = {https://doi.org/10.1145/1989323.1989373},
+  doi          = {10.1145/1989323.1989373},
+  timestamp    = {Thu, 11 Mar 2021 15:20:15 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigmod/FanLMTY11.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/FanLMTY10,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Shuai Ma and
+                  Nan Tang and
+                  Wenyuan Yu},
+  title        = {Towards Certain Fixes with Editing Rules and Master Data},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {3},
+  number       = {1},
+  pages        = {173--184},
+  year         = {2010},
+  url          = {http://www.vldb.org/pvldb/vldb2010/pvldb\_vol3/R15.pdf},
+  doi          = {10.14778/1920841.1920867},
+  timestamp    = {Mon, 14 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/FanLMTY10.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/pvldb/FanLMTWW10,
+  author       = {Wenfei Fan and
+                  Jianzhong Li and
+                  Shuai Ma and
+                  Nan Tang and
+                  Yinghui Wu and
+                  Yunpeng Wu},
+  title        = {Graph Pattern Matching: From Intractable to Polynomial Time},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {3},
+  number       = {1},
+  pages        = {264--275},
+  year         = {2010},
+  url          = {http://www.vldb.org/pvldb/vldb2010/pvldb\_vol3/R23.pdf},
+  doi          = {10.14778/1920841.1920878},
+  timestamp    = {Mon, 14 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/pvldb/FanLMTWW10.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/tkde/ZhangTB10,
+  author       = {Ying Zhang and
+                  Nan Tang and
+                  Peter A. Boncz},
+  title        = {Projective Distribution of XQuery with Updates},
+  journal      = {{IEEE} Trans. Knowl. Data Eng.},
+  volume       = {22},
+  number       = {8},
+  pages        = {1059--1076},
+  year         = {2010},
+  url          = {https://doi.org/10.1109/TKDE.2010.62},
+  doi          = {10.1109/TKDE.2010.62},
+  timestamp    = {Mon, 12 Aug 2019 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/tkde/ZhangTB10.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/cikm/TangSB09,
+  author       = {Nan Tang and
+                  Lefteris Sidirourgos and
+                  Peter A. Boncz},
+  editor       = {David Wai{-}Lok Cheung and
+                  Il{-}Yeol Song and
+                  Wesley W. Chu and
+                  Xiaohua Hu and
+                  Jimmy Lin},
+  title        = {Space-economical partial gram indices for exact substring matching},
+  booktitle    = {Proceedings of the 18th {ACM} Conference on Information and Knowledge
+                  Management, {CIKM} 2009, Hong Kong, China, November 2-6, 2009},
+  pages        = {285--294},
+  publisher    = {{ACM}},
+  year         = {2009},
+  url          = {https://doi.org/10.1145/1645953.1645992},
+  doi          = {10.1145/1645953.1645992},
+  timestamp    = {Fri, 27 Aug 2021 11:13:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/cikm/TangSB09.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/dasfaa/TangYTOB09,
+  author       = {Nan Tang and
+                  Jeffrey Xu Yu and
+                  Hao Tang and
+                  M. Tamer {\"{O}}zsu and
+                  Peter A. Boncz},
+  editor       = {Xiaofang Zhou and
+                  Haruo Yokota and
+                  Ke Deng and
+                  Qing Liu},
+  title        = {Materialized View Selection in {XML} Databases},
+  booktitle    = {Database Systems for Advanced Applications, 14th International Conference,
+                  {DASFAA} 2009, Brisbane, Australia, April 21-23, 2009. Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {5463},
+  pages        = {616--630},
+  publisher    = {Springer},
+  year         = {2009},
+  url          = {https://doi.org/10.1007/978-3-642-00887-0\_55},
+  doi          = {10.1007/978-3-642-00887-0\_55},
+  timestamp    = {Sat, 08 Feb 2020 12:58:03 +0100},
+  biburl       = {https://dblp.org/rec/conf/dasfaa/TangYTOB09.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/ZhangTB09,
+  author       = {Ying Zhang and
+                  Nan Tang and
+                  Peter A. Boncz},
+  editor       = {Yannis E. Ioannidis and
+                  Dik Lun Lee and
+                  Raymond T. Ng},
+  title        = {Efficient Distribution of Full-Fledged XQuery},
+  booktitle    = {Proceedings of the 25th International Conference on Data Engineering,
+                  {ICDE} 2009, March 29 2009 - April 2 2009, Shanghai, China},
+  pages        = {565--576},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2009},
+  url          = {https://doi.org/10.1109/ICDE.2009.79},
+  doi          = {10.1109/ICDE.2009.79},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/ZhangTB09.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/acj/TangYWL08,
+  author       = {Nan Tang and
+                  Jeffrey Xu Yu and
+                  Kam{-}Fai Wong and
+                  Jianxin Li},
+  title        = {Fast {XML} Structural Join Algorithms by Partitioning},
+  journal      = {J. Res. Pract. Inf. Technol.},
+  volume       = {40},
+  number       = {1},
+  pages        = {33--54},
+  year         = {2008},
+  url          = {http://ws.acs.org.au/jrpit/JRPITVolumes/JRPIT40/JRPIT40.1.33.pdf},
+  timestamp    = {Thu, 26 Aug 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/acj/TangYWL08.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/TangYOCW08,
+  author       = {Nan Tang and
+                  Jeffrey Xu Yu and
+                  M. Tamer {\"{O}}zsu and
+                  Byron Choi and
+                  Kam{-}Fai Wong},
+  editor       = {Gustavo Alonso and
+                  Jos{\'{e}} A. Blakeley and
+                  Arbee L. P. Chen},
+  title        = {Multiple Materialized View Selection for XPath Query Rewriting},
+  booktitle    = {Proceedings of the 24th International Conference on Data Engineering,
+                  {ICDE} 2008, April 7-12, 2008, Canc{\'{u}}n, Mexico},
+  pages        = {873--882},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2008},
+  url          = {https://doi.org/10.1109/ICDE.2008.4497496},
+  doi          = {10.1109/ICDE.2008.4497496},
+  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/TangYOCW08.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icde/TangYOW08,
+  author       = {Nan Tang and
+                  Jeffrey Xu Yu and
+                  M. Tamer {\"{O}}zsu and
+                  Kam{-}Fai Wong},
+  editor       = {Gustavo Alonso and
+                  Jos{\'{e}} A. Blakeley and
+                  Arbee L. P. Chen},
+  title        = {Hierarchical Indexing Approach to Support XPath Queries},
+  booktitle    = {Proceedings of the 24th International Conference on Data Engineering,
+                  {ICDE} 2008, April 7-12, 2008, Canc{\'{u}}n, Mexico},
+  pages        = {1510--1512},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2008},
+  url          = {https://doi.org/10.1109/ICDE.2008.4497606},
+  doi          = {10.1109/ICDE.2008.4497606},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/TangYOW08.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@phdthesis{DBLP:phd/ndltd/Tang07a,
+  author       = {Nan Tang},
+  title        = {Efficient Xpath query processing in native {XML} databases},
+  school       = {Chinese University of Hong Kong, Hong Kong},
+  year         = {2007},
+  url          = {http://library.cuhk.edu.hk/record=b6074503},
+  timestamp    = {Mon, 30 Apr 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/phd/ndltd/Tang07a.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/www/WongYT06,
+  author       = {Kam{-}Fai Wong and
+                  Jeffrey Xu Yu and
+                  Nan Tang},
+  title        = {Answering {XML} Queries Using Path-Based Indexes: {A} Survey},
+  journal      = {World Wide Web},
+  volume       = {9},
+  number       = {3},
+  pages        = {277--299},
+  year         = {2006},
+  url          = {https://doi.org/10.1007/s11280-006-8557-z},
+  doi          = {10.1007/S11280-006-8557-Z},
+  timestamp    = {Thu, 14 Oct 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/www/WongYT06.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/dasfaa/ChengYT06,
+  author       = {Jiefeng Cheng and
+                  Jeffrey Xu Yu and
+                  Nan Tang},
+  editor       = {Mong{-}Li Lee and
+                  Kian{-}Lee Tan and
+                  Vilas Wuwongse},
+  title        = {Fast Reachability Query Processing},
+  booktitle    = {Database Systems for Advanced Applications, 11th International Conference,
+                  {DASFAA} 2006, Singapore, April 12-15, 2006, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {3882},
+  pages        = {674--688},
+  publisher    = {Springer},
+  year         = {2006},
+  url          = {https://doi.org/10.1007/11733836\_47},
+  doi          = {10.1007/11733836\_47},
+  timestamp    = {Tue, 14 May 2019 10:00:44 +0200},
+  biburl       = {https://dblp.org/rec/conf/dasfaa/ChengYT06.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/dasfaa/TangYWJ06,
+  author       = {Nan Tang and
+                  Jeffrey Xu Yu and
+                  Kam{-}Fai Wong and
+                  Haifeng Jiang},
+  editor       = {Mong{-}Li Lee and
+                  Kian{-}Lee Tan and
+                  Vilas Wuwongse},
+  title        = {Fast Structural Join with a Location Function},
+  booktitle    = {Database Systems for Advanced Applications, 11th International Conference,
+                  {DASFAA} 2006, Singapore, April 12-15, 2006, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {3882},
+  pages        = {777--786},
+  publisher    = {Springer},
+  year         = {2006},
+  url          = {https://doi.org/10.1007/11733836\_55},
+  doi          = {10.1007/11733836\_55},
+  timestamp    = {Thu, 14 Oct 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/dasfaa/TangYWJ06.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/dexa/TangYWLL05,
+  author       = {Nan Tang and
+                  Jeffrey Xu Yu and
+                  Kam{-}Fai Wong and
+                  Kevin L{\"{u}} and
+                  Jianxin Li},
+  editor       = {Kim Viborg Andersen and
+                  John K. Debenham and
+                  Roland R. Wagner},
+  title        = {Accelerating {XML} Structural Join by Partitioning},
+  booktitle    = {Database and Expert Systems Applications, 16th International Conference,
+                  {DEXA} 2005, Copenhagen, Denmark, August 22-26, 2005, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {3588},
+  pages        = {280--289},
+  publisher    = {Springer},
+  year         = {2005},
+  url          = {https://doi.org/10.1007/11546924\_28},
+  doi          = {10.1007/11546924\_28},
+  timestamp    = {Thu, 14 Oct 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/dexa/TangYWLL05.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icpads/TangWYWY05,
+  author       = {Nan Tang and
+                  Guoren Wang and
+                  Jeffrey Xu Yu and
+                  Kam{-}Fai Wong and
+                  Ge Yu},
+  title        = {{WIN:} An Effcient Data Placement Strategy for Parallel {XML} Databases},
+  booktitle    = {11th International Conference on Parallel and Distributed Systems,
+                  {ICPADS} 2005, Fuduoka, Japan, July 20-22, 2005},
+  pages        = {349--355},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2005},
+  url          = {https://doi.org/10.1109/ICPADS.2005.298},
+  doi          = {10.1109/ICPADS.2005.298},
+  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/icpads/TangWYWY05.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/apweb/SunZTWYJ04,
+  author       = {Bing Sun and
+                  Bo Zhou and
+                  Nan Tang and
+                  Guoren Wang and
+                  Ge Yu and
+                  Fulin Jia},
+  editor       = {Jeffrey Xu Yu and
+                  Xuemin Lin and
+                  Hongjun Lu and
+                  Yanchun Zhang},
+  title        = {Answering {XML} Twig Queries with Automata},
+  booktitle    = {Advanced Web Technologies and Applications, 6th Asia-Pacific Web Conference,
+                  APWeb 2004, Hangzhou, China, April 14-17, 2004, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {3007},
+  pages        = {170--179},
+  publisher    = {Springer},
+  year         = {2004},
+  url          = {https://doi.org/10.1007/978-3-540-24655-8\_18},
+  doi          = {10.1007/978-3-540-24655-8\_18},
+  timestamp    = {Mon, 16 Mar 2020 17:44:09 +0100},
+  biburl       = {https://dblp.org/rec/conf/apweb/SunZTWYJ04.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/compsac/YuWYWHT03,
+  author       = {Yaxin Yu and
+                  Guoren Wang and
+                  Ge Yu and
+                  Gang Wu and
+                  Junan Hu and
+                  Nan Tang},
+  title        = {Data Placement and Query Processing Based on {RPE} Parallelisms},
+  booktitle    = {27th International Computer Software and Applications Conference {(COMPSAC}
+                  2003): Design and Assessment of Trustworthy Software-Based Systems,
+                  3-6 November 2003, Dallas, TX, USA, Proceedings},
+  pages        = {151},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2003},
+  url          = {https://doi.org/10.1109/CMPSAC.2003.1245335},
+  doi          = {10.1109/CMPSAC.2003.1245335},
+  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/compsac/YuWYWHT03.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 

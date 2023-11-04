@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Nan Tang
+      value: Nan Tang (汤南)
     - name: Languages
       value: Chinese, English
 
@@ -14,7 +14,13 @@
       year: 2007
       description:
         - Co-supervised by Prof. Kam-Fai Wong and Prof. Jeffery Xu Yu
-        - Management of semi-structured data
+        - Research on management of semi-structured data
+    - title: Master
+      institution: Northeastern University, China
+      year: 2004
+      description:
+        - Supervised by Prof. Guoren Wang and Prof. Ge Yu
+        - Research on distributed and parallel XML processing
 
 - title: Experience
   type: time_table
@@ -23,32 +29,35 @@
       institution: Qatar Computing Research Institute, Qatar
       year: 2011 - 2023
       description:
-        - Data prep systems, and AI-powered data prep
-        - Data-centric AI
+        - Research on data prep systems, AI-powered data prep, and data-centric AI
 
     - title: Visiting Scientist, US
       institution: MIT CSAIL
       year: 2017/07-08
       description:
-        - Collobrating on <a href="http://dsail.csail.mit.edu/index.php/data-civilizer/">Data Civilizer</a> project
-
+        - Collobrating with Prof. Mike Stonebraker, Prof. Sam Madden, and Prof. Armando Solar
+        - Research on <a href="http://dsail.csail.mit.edu/index.php/data-civilizer/">Data Civilizer</a> project
+        
     - title: Research Fellow
       institution: University of Edinburgh, Edinburgh, UK
       year: 2010/02-2011/12
       description:
-        - Data cleaning
+        - Mentored by Prof. Wenfei Fan
+        - Research on data cleaning and graph databases
 
     - title: Scientific Staff Member
       institution: CWI (the national research institute for mathematics and computer science), the Netherlands
       year: 2008/02-2010/01
       description:
-        - Column-store database MonetDB and distributed XQuery processing
+        - Mentored by Prof. Dr. Peter Boncz
+        - Research on column-store database MonetDB and distributed XQuery processing
 
     - title: Visiting Scholar
       institution: University of Waterloo, Canada
       year: 2007/03–08
       description:
-        - XML indexing and query rewriting
+        - Mentored by Prof. Tamer Ozsu
+        - Research on XML indexing and query rewriting
 
 - title: Honors and Awards
   type: time_table
