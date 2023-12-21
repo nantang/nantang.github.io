@@ -62,13 +62,17 @@ This is more from the application side, where the required datasets are provided
     <li>H.A.R.V.I.S (HKUST AR for VIS): This is a LLM and AR powered system for data visualization</li>
 </ul>
 
+<!--
+
 ### Book a face-to-face discussion
 
 My allocated office hour for meeting RBM students is 2-3pm, every Monday.
 You can book either a 30-minute slot for an individual discussion or two 30-minute slots for a group discussion.
-
+-->
 
 <!-- Calendly inline widget begin -->
+<!--
 <div class="calendly-inline-widget" data-url="https://calendly.com/nantang-gz/rbm" style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+>
 <!-- Calendly inline widget end -->
