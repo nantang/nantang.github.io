@@ -68,7 +68,8 @@
     - year: 2023
       items:  
         - Best papers of SIGMOD 2023. GoodCore Data-effective and Data-efficient Machine Learning through Coreset Selection over Incomplete Data.
-        - ICDE 2023 Distinguished Reviewer Award.  
+        - Best papers of VLDB 2023. Self-supervised and Interpretable Data Cleaning with Sequence Generative Adversarial Networks.
+        - ICDE 2023 Distinguished Reviewer Award.          
     - year: 2021
       items: 
         -  VLDB 2021 Distinguished Reviewer Award. 
@@ -96,7 +97,7 @@
   contents:
     - year: 2025
       items: 
-        -  VLDB (Meta-Reviewer, demo track reviewer), ICDE
+        -  VLDB (Meta-Reviewer, demo track reviewer), ICDE (research and industial)
     - year: 2024
       items: 
         -  SIGMOD, VLDB (industrial track), ICDE (research track area chair, industrial track reviewer) 
