@@ -95,6 +95,9 @@
 - title: Services
   type: time_table
   contents:
+    - year: 2026
+      items: 
+        -  VLDB Meta-Reviewer
     - year: 2025
       items: 
         -  VLDB Meta-Reviewer(research and demo), ICDE (research and industial)
