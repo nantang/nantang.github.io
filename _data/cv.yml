@@ -97,7 +97,7 @@
   contents:
     - year: 2026
       items: 
-        -  VLDB Meta-Reviewer
+        -  VLDB Meta-Reviewer, ICDE Meta-Reviewer
     - year: 2025
       items: 
         -  VLDB Meta-Reviewer (research and demo), KDD Meta-Reviewer (Datasets and Benchmarks Track), CIKM (Senior PC), ICDE (research and industial), Data-Driven AI workshp (General Chair), NeurIPS, ICLR, ACL, ACM MM
