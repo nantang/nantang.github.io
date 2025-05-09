@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 2
-display_categories: [llmdb, dcai, dataprep, vis, finished]
+display_categories: [llmdb, llmprivacy, dcai, dataprep, vis, finished]
 horizontal: false
 ---
 

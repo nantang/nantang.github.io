@@ -22,7 +22,7 @@ I am an associate professor at <a href="http://dsa.hkust-gz.edu.cn/">Data Scienc
 Before joining HKUST(GZ), I worked as a senior scientist at <a href="https://www.hbku.edu.qa/en/qcri/about">Qatar Computing Research Institute</a>, a visiting scientist at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, a research fellow at <a href="https://www.ed.ac.uk/">University of Edinburgh</a>, a scientific staff member at <a href="https://www.cwi.nl/en/">CWI</a> (national research institute for mathematics and computer science in the Netherlands), and a visiting scholar at <a href="https://uwaterloo.ca/">University of Waterloo</a>.
 
 
-I am directing the <a href=""> Data Intelligence</a> lab, which focuses on finding good data and smart analytics that are fundamental to data management, data science and artificial intelligence. 
+I am directing the <a href=""> Data Intelligence and Analytics Lab (DIAL)</a>, which focuses on finding good data and smart analytics that are fundamental to data management, data science and artificial intelligence. 
 
 <ul>
   <li>
