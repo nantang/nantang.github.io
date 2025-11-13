@@ -30,20 +30,20 @@ I am directing the <a href=""> Data Intelligence and Analytics Lab (DIAL)</a>, w
 
 <ul>
   <li>
-    <em><strong>Retrieval-based language models using multi-modal data lakes.</strong></em>
-    Data lakes have become increasingly popular for many organizations. Given a natural language question, retrieving datasets (e.g., text, tables, graphs) and reasoning with language models are key for business intelligence.
+    <em><strong>Document-to-Database: Unlocking Structured Insights from Documents.</strong></em>
+    Transform unstructured documents (PDFs, reports, emails) into structured database tables so that analytics, joins, and queries operate directly over derived schemas—bridging document-centric content and tabular analytics at scale.
   </li>
   <li>
-    <em><strong>Good data for AI (a.k.a. data-centric AI).</strong></em>
-    For most machine learning practitioners, the success of machine learning projects heavily depends on whether we can find good data for model training.
+    <em><strong>Document AI: From Pages to Purpose-Built Intelligence.</strong></em>
+    Leverage AI (vision, NLP, layout, semantics) to ingest, understand and operationalize documents in business workflows—e.g., extracting structured entities, linking documents, automating decision-flows—so documents become active assets, not inert files.
   </li>
   <li>
-    <em><strong>AI for good data.</strong></em>
-    Data scientists spend at least 80% of their time on data preparation. Machine learning models can help address diverse data preparation challenges.
+    <em><strong>Agent Memory for Data-Analytic Tasks: Enabling Persistent Reasoning.</strong></em>
+    Build memory systems for data-analytic agents so they accumulate experiences, recall prior analyses and reasoning chains, and maintain context across multi-step workflows—enabling agents to “remember” prior tables, joins, corrections, and meta-decisions..
   </li>
   <li>
-    <em><strong>Visualization.</strong></em>
-    Data visualization is important to data analytics. I am working on automatic visualization, visualization recommendation, chat-to-story, chat-to-video, and visualization using AR/VR devices.
+    <em><strong>DeepFund: Real-Time Multi-Agent LLM in Finance.</strong></em>
+    The DeepFund platform by Paradoox AI brings together live market data, multi-agent LLMs (analysts & portfolio managers), and real-time evaluation—moving beyond back-testing to assess LLMs in real investment scenarios with built-in risk/control semantics.
   </li>
 </ul>
 
