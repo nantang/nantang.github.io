@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Associate Professor and PG Coordinator: <a href="http://dsa.hkust-gz.edu.cn/">Data Science and Analytics Thrust</a>
+Associate Prof. and PG Coordinator: <a href="http://dsa.hkust-gz.edu.cn/">Data Science and Analytics Thrust</a>
 
 Associate Dean (PG Affairs): <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/">Information Hub</a>
 
