@@ -50,3 +50,6 @@ I am directing the <a href="https://github.com/HKUSTDial"> Data Intelligence and
 Office: E3 601 
 <br>E-mail: nantang (at) hkust-gz.edu.cn
 <br>Call: (+86)-20-88330888
+
+<a href="https://dblp.org/pid/27/104-1.html">DBLP</a> 
+<a href="http://scholar.google.com/citations?user=poXWlycAAAAJ&hl=en">Google Scholar</a>
