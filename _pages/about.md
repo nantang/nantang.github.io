@@ -21,6 +21,8 @@ Associate Prof. and PG Coordinator: <a href="http://dsa.hkust-gz.edu.cn/">Data S
 Associate Dean (PG Affairs): <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/">Information Hub</a>
 <br>
 University Senate Member: <a href="http://hkust-gz.edu.cn/">HKUST(Guangzhou)</a>
+<br>
+ACM Distinguished Member
 
 I also hold an affiliated position at <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a>, the Clear Water Bay campus at Hong Kong.
 Before joining HKUST(GZ), I worked as a senior scientist at <a href="https://www.hbku.edu.qa/en/qcri/about">Qatar Computing Research Institute</a>, a visiting scientist at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, a research fellow at <a href="https://www.ed.ac.uk/">University of Edinburgh</a>, a scientific staff member at <a href="https://www.cwi.nl/en/">CWI</a> (national research institute for mathematics and computer science in the Netherlands), and a visiting scholar at <a href="https://uwaterloo.ca/">University of Waterloo</a>.
