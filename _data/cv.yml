@@ -97,7 +97,7 @@
   contents:
     - year: 2027
       items: 
-        -  SIGMOD 
+        -  SIGMOD, VLDB
     - year: 2026
       items: 
         -  VLDB Meta-Reviewer, ICDE Meta-Reviewer, IEEE Data Bulletin (Associate Editor), ACL Rolling Review (Area Chair)
